@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Athena
+  m_EditorClassIdentifier: 
+  types: 3
+  name: ATHENA
+  godQuizzes:
+  - question: How was Athena born?
+    _answers:
+    - From the sea foam
+    - From Hera alone
+    - "Sprang from Zeus\u2019s head fully grown"
+    - Carried by an eagle
+    correctReply: 2
+  - question: "What city was named in Athena\u2019s honor?"
+    _answers:
+    - 'Sparta '
+    - 'Thebes '
+    - 'Corinth '
+    - 'Athens '
+    correctReply: 3
+  - question: What gift did Athena offer to win the city of Athens?
+    _answers:
+    - 'A golden statue '
+    - 'A war chariot '
+    - 'An olive tree '
+    - 'A silver coin  '
+    correctReply: 2
+  - question: "How does Athena\u2019s approach to war differ from Ares\u2019s?  "
+    _answers:
+    - 'She avoids war completely  '
+    - She prefers strategic, justified warfare
+    - She uses magic over weapons
+    - 'She relies on brute force '
+    correctReply: 1
+  - question: "What is the name of Athena\u2019s protective shield?"
+    _answers:
+    - 'Trident '
+    - 'Caduceus '
+    - 'Aegis '
+    - 'Lyre '
+    correctReply: 2
+  - question: 'Which animal is most sacred to Athena?  '
+    _answers:
+    - 'Lion '
+    - 'Snake '
+    - 'Dolphin '
+    - 'Owl '
+    correctReply: 3
+  - question: Which hero did Athena assist in slaying Medusa?
+    _answers:
+    - 'Odysseus '
+    - 'Heracles '
+    - 'Perseus '
+    - 'Achilles '
+    correctReply: 2
+  - question: Which of these is NOT associated with Athena?
+    _answers:
+    - 'Olive tree '
+    - 'Helmet '
+    - 'Bow and arrow '
+    - 'Spear '
+    correctReply: 2
+  - question: What major temple was built to honor Athena in Athens?
+    _answers:
+    - Erechtheion
+    - 'Parthenon '
+    - Oracle of Delphi
+    - Temple of Apollo
+    correctReply: 1
+  - question: 'Why is Athena considered a virgin goddess? '
+    _answers:
+    - She was too young
+    - She focused on wisdom and war, not romantic love
+    - She was forbidden from marrying
+    - She was married to knowledge
+    correctReply: 1

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Dionusus
+  m_EditorClassIdentifier: 
+  types: 9
+  name: DIONYSUS
+  godQuizzes:
+  - question: 'Who were the parents of Dionysus?   '
+    _answers:
+    - ' Zeus and Hera '
+    - 'Apollo and Semele   '
+    - 'Zeus and Semele '
+    - 'Poseidon and Leto   '
+    correctReply: 2
+  - question: 'What is Dionysus the god of?   '
+    _answers:
+    - 'Fire, war, and revenge   '
+    - 'Wine, ecstasy, theater, and transformation   '
+    - Oceans and storms
+    - 'Hunting and archery '
+    correctReply: 1
+  - question: "What does Dionysus\u2019s title \u201Ctwice-born\u201D refer to?   "
+    _answers:
+    - 'His resurrection after death   '
+    - 'His birth from Hera and rebirth through fire   '
+    - "His birth from Semele and later from Zeus\u2019s thigh  "
+    - 'His life as both god and mortal   '
+    correctReply: 2
+  - question: What is the thyrsus?
+    _answers:
+    - A flaming spear
+    - 'A curved dagger   '
+    - 'A staff with ivy and pinecone   '
+    - A torch used in rituals
+    correctReply: 2
+  - question: 'Which animals are sacred to Dionysus? '
+    _answers:
+    - Horse, eagle, and swan
+    - 'Panther, bull, and serpent   '
+    - 'Dog, lion, and owl  '
+    - 'Boar, dolphin, and goat   '
+    correctReply: 1
+  - question: Who were the Maenads?
+    _answers:
+    - "Dionysus\u2019s sisters   "
+    - 'Women driven to ecstatic frenzy in his worship   '
+    - 'Priestesses of Apollo '
+    - 'Oracles of Delphi   '
+    correctReply: 1
+  - question: "What was Dionysus\u2019s role in Greek theater?   "
+    _answers:
+    - 'He inspired music alone   '
+    - He judged plays from Olympus
+    - 'He was the patron of theater and drama '
+    - 'He was worshipped only through comedies '
+    correctReply: 2
+  - question: 'What happened to King Pentheus when he denied Dionysus?   '
+    _answers:
+    - 'He went mad and was torn apart '
+    - 'He became a Maenad   '
+    - 'He was turned to stone   '
+    - 'He lost his throne   '
+    correctReply: 0
+  - question: 'What plant is most associated with Dionysus?   '
+    _answers:
+    - 'Laurel '
+    - 'Wheat '
+    - 'Olive '
+    - 'Grape vine   '
+    correctReply: 3
+  - question: Which city celebrated Dionysus with large theatrical festivals?
+    _answers:
+    - 'Sparta '
+    - 'Athens '
+    - 'Delphi '
+    - 'Corinth '
+    correctReply: 1

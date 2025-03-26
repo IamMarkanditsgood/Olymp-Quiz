@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Artemis
+  m_EditorClassIdentifier: 
+  types: 5
+  name: ARTEMIS
+  godQuizzes:
+  - question: "Who is Artemis\u2019s twin brother?  "
+    _answers:
+    - 'Hermes '
+    - 'Apollo '
+    - 'Dionysus '
+    - 'Ares '
+    correctReply: 1
+  - question: 'What is Artemis the goddess of?  '
+    _answers:
+    - Agriculture and wine
+    - 'Wisdom and justice '
+    - 'Hunt, moon, and maidenhood   '
+    - Fire and blacksmithing
+    correctReply: 2
+  - question: What creature is most sacred to Artemis?
+    _answers:
+    - 'Eagle '
+    - 'Bear '
+    - 'Deer '
+    - 'Horse '
+    correctReply: 2
+  - question: What vow did Artemis make that defined much of her mythology?
+    _answers:
+    - To become queen of Olympus
+    - 'To remain a virgin and avoid marriage   '
+    - 'To live in the underworld '
+    - To control the seas
+    correctReply: 1
+  - question: Which famous temple was dedicated to Artemis?
+    _answers:
+    - 'Parthenon '
+    - Temple of Zeus
+    - Temple at Ephesus
+    - 'Delphi '
+    correctReply: 2
+  - question: What punishment did Artemis give to Actaeon?
+    _answers:
+    - Turned him into a tree
+    - Banished him forever
+    - Turned him into a stag
+    - Struck him with lightning
+    correctReply: 2
+  - question: "What natural symbol is associated with Artemis\u2019s forehead?"
+    _answers:
+    - A sun disk
+    - A lightning bolt
+    - A crescent moon
+    - 'A star '
+    correctReply: 2
+  - question: What did Artemis demand from Agamemnon before the Trojan War?
+    _answers:
+    - ' Gold and jewels'
+    - The sacrifice of his daughter
+    - Control of Athens
+    - 'A statue in her honor   '
+    correctReply: 1
+  - question: What kind of rituals were performed during the festival of Brauronia?
+    _answers:
+    - Horse races
+    - ' Girls dressed as bears in rites of passage'
+    - Mock battles
+    - Singing contests
+    correctReply: 1
+  - question: What does Artemis represent beyond hunting and nature?
+    _answers:
+    - Chaos and fire
+    - 'Autonomy, protection, and feminine strength '
+    - Wisdom and prophecy
+    - Fertility and marriage
+    correctReply: 1

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Ares
+  m_EditorClassIdentifier: 
+  types: 6
+  name: ARES
+  godQuizzes:
+  - question: What does Ares represent in Greek mythology?
+    _answers:
+    - Strategic war and discipline
+    - 'Chaos, bloodshed, and raw battle '
+    - Justice and order
+    - Peacekeeping
+    correctReply: 1
+  - question: Who are the parents of Ares?
+    _answers:
+    - ' Zeus and Hera'
+    - Apollo and Artemis
+    - ' Cronus and Rhea'
+    - Poseidon and Demeter
+    correctReply: 0
+  - question: Which goddess often outwitted Ares in battle?
+    _answers:
+    - 'Aphrodite '
+    - 'Hera '
+    - 'Athena '
+    - 'Hestia '
+    correctReply: 2
+  - question: What are the names of Ares's sons who accompanied him into battle?
+    _answers:
+    - Hypnos and Thanatos
+    - Phobos and Deimos
+    - Eros and Anteros
+    - Helios and Kronos
+    correctReply: 1
+  - question: Who was Ares's most famous lover?
+    _answers:
+    - 'Athena '
+    - 'Artemis '
+    - 'Hera '
+    - 'Aphrodite '
+    correctReply: 3
+  - question: What creatures are sacred to Ares?
+    _answers:
+    - Owl and dolphin
+    - Dog and deer
+    - ' Boar and vulture '
+    - Swan and eagle
+    correctReply: 2
+  - question: How was Ares humiliated during the Trojan War?
+    _answers:
+    - He was turned to stone
+    - He was caught in a trap
+    - He was wounded by a mortal with divine help
+    - He was blinded by Zeus
+    correctReply: 2
+  - question: In which city was Ares especially honored?
+    _answers:
+    - 'Delphi '
+    - 'Corinth '
+    - 'Sparta '
+    - 'Athens '
+    correctReply: 2
+  - question: What kind of warfare did Ares embody?
+    _answers:
+    - 'Diplomacy and protection  '
+    - 'Revenge and stealth   '
+    - 'Righteous battle  '
+    - 'Brutal, emotional combat  '
+    correctReply: 3
+  - question: What role did Fear and Terror play in Ares's mythology?
+    _answers:
+    - They were his weapons
+    - 'They were his enemies   '
+    - 'They were his twin sons and companions in war  '
+    - They guided his chariot
+    correctReply: 2

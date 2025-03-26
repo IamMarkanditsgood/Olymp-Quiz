@@ -5,7 +5,10 @@ using UnityEngine;
 public abstract class BasicPopup : MonoBehaviour
 {
     [SerializeField] private GameObject _view;
+
     [SerializeField] private PopupTypes _popupType;
+
+    public PopupTypes PopupType => _popupType;
 
     public virtual void Show()
     {

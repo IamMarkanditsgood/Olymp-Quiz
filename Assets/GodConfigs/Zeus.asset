@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Zeus
+  m_EditorClassIdentifier: 
+  types: 0
+  name: ZEUS
+  godQuizzes:
+  - question: "Who were Zeus\u2019s parents?   "
+    _answers:
+    - ' Ares and Hera   '
+    - 'Cronus and Rhea   '
+    - 'Uranus and Gaia   '
+    - 'Apollo and Leto '
+    correctReply: 1
+  - question: What mountain is considered the home of Zeus and the Olympian gods?
+    _answers:
+    - Mount Etna
+    - Mount Ida
+    - 'Mount Olympus   '
+    - Mount Helicon
+    correctReply: 2
+  - question: "What is Zeus\u2019s most famous weapon?  "
+    _answers:
+    - 'Trident  '
+    - 'Bow '
+    - 'Thunderbolt '
+    - 'Golden spear   '
+    correctReply: 2
+  - question: Which ancient city was home to a massive statue of Zeus, one of the
+      Seven Wonders?
+    _answers:
+    - 'Athens '
+    - 'Delphi '
+    - 'Corinth '
+    - 'Olympia '
+    correctReply: 3
+  - question: 'What was the reason Cronus swallowed his children? '
+    _answers:
+    - 'He wanted to become stronger   '
+    - He was afraid of being overthrown
+    - He thought they were cursed
+    - 'They betrayed him '
+    correctReply: 1
+  - question: Which value or moral concept was Zeus especially known to protect?
+    _answers:
+    - 'Wealth '
+    - Xenia
+    - 'War '
+    - 'Silence '
+    correctReply: 1
+  - question: What bird is most sacred to Zeus?
+    _answers:
+    - 'Dove '
+    - 'Owl '
+    - 'Falcon '
+    - 'Eagle '
+    correctReply: 3
+  - question: Which titan did Zeus overthrow to take power?
+    _answers:
+    - 'Atlas '
+    - 'Oceanus '
+    - 'Prometheus '
+    - 'Cronus '
+    correctReply: 3
+  - question: 'Which of the following was NOT a child of Zeus?  '
+    _answers:
+    - 'Apollo '
+    - 'Athena '
+    - 'Heracles '
+    - 'Hades '
+    correctReply: 3
+  - question: Which tree was considered sacred to Zeus at Dodona?
+    _answers:
+    - 'Olive '
+    - 'Laurel '
+    - 'Oak '
+    - 'Cypress '
+    correctReply: 2

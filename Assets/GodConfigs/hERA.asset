@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: hERA
+  m_EditorClassIdentifier: 
+  types: 1
+  name: HERA
+  godQuizzes:
+  - question: What is Hera the goddess of?
+    _answers:
+    - ' Love and war '
+    - 'Marriage, women, and childbirth '
+    - 'Harvest and the sea  '
+    - ' Poetry and hunting '
+    correctReply: 1
+  - question: "Who is Hera\u2019s husband and brother? "
+    _answers:
+    - 'Ares '
+    - 'Hades '
+    - 'Zeus '
+    - 'Apollo '
+    correctReply: 2
+  - question: 'Which animal is most sacred to Hera? '
+    _answers:
+    - 'Wolf '
+    - 'Peacock '
+    - 'Eagle '
+    - 'Snake '
+    correctReply: 1
+  - question: 'What fruit is a symbol of Hera''s connection to fertility?   '
+    _answers:
+    - 'Apple '
+    - 'Grape '
+    - 'Pomegranate '
+    - 'Fig '
+    correctReply: 2
+  - question: 'Which famous hero did Hera famously persecute throughout his life?  '
+    _answers:
+    - 'Perseus '
+    - 'Heracles '
+    - 'Achilles '
+    - 'Odysseus '
+    correctReply: 1
+  - question: 'Why did Hera hate the Trojans during the Trojan War? '
+    _answers:
+    - They invaded her temple
+    - 'Paris did not choose her as the fairest '
+    - 'They betrayed Zeus   '
+    - 'They disrespected Athena   '
+    correctReply: 1
+  - question: Which of these cities had a major temple dedicated to Hera?
+    _answers:
+    - 'Delphi '
+    - 'Ephesus '
+    - 'Argos '
+    - 'Rhodes '
+    correctReply: 2
+  - question: 'What object does Hera often hold in artistic depictions? '
+    _answers:
+    - 'Thunderbolt '
+    - 'Bow and arrow  '
+    - 'Torch '
+    - ' Scepter or lotus staff '
+    correctReply: 3
+  - question: 'What does Hera symbolize in Greek society? '
+    _answers:
+    - 'War and conquest  '
+    - 'Chaos and desire  '
+    - 'Power, marriage, and justice  '
+    - ' Silence and mystery  '
+    correctReply: 2
+  - question: "Which festival was held in Hera's honor and included women\u2019s
+      athletic events?   "
+    _answers:
+    - 'Panathenaia '
+    - 'Heraia '
+    - 'Eleusinia '
+    - 'Thesmophoria '
+    correctReply: 1

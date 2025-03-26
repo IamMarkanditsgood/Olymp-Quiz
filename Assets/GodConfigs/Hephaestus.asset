@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Hephaestus
+  m_EditorClassIdentifier: 
+  types: 8
+  name: HEPHAESTUS
+  godQuizzes:
+  - question: 'What is Hephaestus the god of? '
+    _answers:
+    - 'War and bloodshed  '
+    - 'Blacksmithing, fire, and invention   '
+    - Hunting and animals
+    - Music and prophecy
+    correctReply: 1
+  - question: 'How was Hephaestus described at birth?  '
+    _answers:
+    - ' Beautiful and radiant  '
+    - 'Lame and physically imperfect  '
+    - Winged and golden
+    - Giant in size
+    correctReply: 1
+  - question: 'What did Hephaestus use to trap Hera in one myth? '
+    _answers:
+    - A chain
+    - 'A magical net '
+    - 'A golden throne '
+    - 'A cursed mirror   '
+    correctReply: 2
+  - question: "Which volcanic mountain was believed to house Hephaestus\u2019s forge?"
+    _answers:
+    - 'Mount Olympus   '
+    - 'Mount Parnassus   '
+    - 'Mount Etna '
+    - 'Mount Helicon   '
+    correctReply: 2
+  - question: 'Which goddess was married to Hephaestus?  '
+    _answers:
+    - 'Athena '
+    - 'Hestia '
+    - 'Hera '
+    - 'Aphrodite '
+    correctReply: 3
+  - question: 'How did Hephaestus catch Aphrodite and Ares?  '
+    _answers:
+    - 'He summoned Zeus '
+    - He sent Hermes
+    - 'He forged an invisible net   '
+    - 'He used a mirror   '
+    correctReply: 2
+  - question: 'What was the name of the temple dedicated to Hephaestus in Athens? '
+    _answers:
+    - 'Parthenon '
+    - 'Erechtheion '
+    - 'Hephaesteion '
+    - 'Olympieion '
+    correctReply: 2
+  - question: 'Which hero wore armor forged by Hephaestus?   '
+    _answers:
+    - 'Odysseus '
+    - 'Achilles '
+    - 'Heracles '
+    - 'Perseus '
+    correctReply: 1
+  - question: 'What were common symbols of Hephaestus?  '
+    _answers:
+    - Shield and sword
+    - 'Anvil, hammer, and tongs  '
+    - Bow and arrow
+    - 'Spear and laurel '
+    correctReply: 1
+  - question: 'What quality does Hephaestus symbolize above all? '
+    _answers:
+    - ' Military conquest  '
+    - 'Divine anger   '
+    - 'Artistic creation and resilience  '
+    - 'Chaotic destruction   '
+    correctReply: 2

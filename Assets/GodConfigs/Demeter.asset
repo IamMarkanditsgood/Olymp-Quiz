@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Demeter
+  m_EditorClassIdentifier: 
+  types: 7
+  name: DEMETER
+  godQuizzes:
+  - question: What is Demeter the goddess of?
+    _answers:
+    - ' Wisdom and law'
+    - Marriage and family
+    - Harvest, agriculture, and fertility
+    - War and strategy
+    correctReply: 2
+  - question: "Who is Demeter\u2019s daughter? "
+    _answers:
+    - 'Athena '
+    - 'Hestia '
+    - 'Persephone '
+    - 'Artemis '
+    correctReply: 2
+  - question: What happened when Persephone was taken to the underworld?
+    _answers:
+    - Demeter flooded the earth
+    - 'The sun stopped rising '
+    - Demeter caused the earth to become barren
+    - 'Hades was destroyed '
+    correctReply: 2
+  - question: What natural phenomenon did the myth of Demeter and Persephone explain?
+    _answers:
+    - 'The phases of the moon '
+    - 'The tides '
+    - ' The four elements '
+    - The seasons
+    correctReply: 3
+  - question: 'What did Demeter carry as a symbol of abundance? '
+    _answers:
+    - Laurel wreath
+    - Golden apple
+    - 'Cornucopia '
+    - Crystal orb
+    correctReply: 2
+  - question: "What secret rites were held in Demeter\u2019s honor?"
+    _answers:
+    - Dionysian Festivals
+    - 'Eleusinian Mysteries  '
+    - Oracle of Delphi
+    - 'Festival of the Muses  '
+    correctReply: 1
+  - question: Where were the Eleusinian Mysteries held?
+    _answers:
+    - 'Delphi '
+    - 'Olympia '
+    - 'Athens '
+    - 'Eleusis '
+    correctReply: 3
+  - question: 'Which of these was NOT a symbol of Demeter?  '
+    _answers:
+    - 'Torch '
+    - 'Sheaf of wheat '
+    - 'Trident '
+    - 'Poppy '
+    correctReply: 2
+  - question: "What was Demeter\u2019s role in human civilization?"
+    _answers:
+    - She taught poetry
+    - She created metal tools
+    - She taught agriculture and how to grow food
+    - ' She built ships'
+    correctReply: 2
+  - question: Which festival was primarily associated with Demeter and women?
+    _answers:
+    - 'Panathenaia '
+    - 'Thesmophoria '
+    - 'Heraia '
+    - Isthmian Games
+    correctReply: 1

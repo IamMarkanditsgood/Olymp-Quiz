@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Poseidon
+  m_EditorClassIdentifier: 
+  types: 0
+  name: ZEUS
+  godQuizzes:
+  - question: 'What domain did Poseidon rule over? '
+    _answers:
+    - The sky
+    - The underworld
+    - ' The sea and earthquakes'
+    - ' Fire and war '
+    correctReply: 2
+  - question: 'What weapon or symbol is most associated with Poseidon? '
+    _answers:
+    - 'Thunderbolt '
+    - Golden axe
+    - Flaming sword
+    - 'Trident '
+    correctReply: 3
+  - question: What title is Poseidon often given due to his seismic power?
+    _answers:
+    - 'Cloud-Gatherer '
+    - ' Storm-Bringer'
+    - 'Earth-Shaker '
+    - 'Flame-Bearer  '
+    correctReply: 2
+  - question: What creature is Poseidon said to have created?
+    _answers:
+    - The lion
+    - The horse
+    - The eagle
+    - The serpent
+    correctReply: 1
+  - question: 'Which goddess won the contest for Athens against Poseidon? '
+    _answers:
+    - 'Hera '
+    - 'Artemis '
+    - 'Aphrodite '
+    - 'Athena '
+    correctReply: 3
+  - question: Who was Poseidon's wife?
+    _answers:
+    - 'Demeter '
+    - 'Amphitrite '
+    - 'Hestia '
+    - 'Calypso '
+    correctReply: 1
+  - question: 'What did Poseidon create during his contest with Athena? '
+    _answers:
+    - A field of flowers
+    - ' A freshwater spring'
+    - A saltwater spring
+    - 'A stone fortress   '
+    correctReply: 2
+  - question: 'Which hero is considered a son of Poseidon? '
+    _answers:
+    - 'Perseus '
+    - 'Achilles '
+    - 'Theseus '
+    - 'Hector '
+    correctReply: 2
+  - question: Where were the Isthmian Games, dedicated to Poseidon, held?
+    _answers:
+    - 'Delos '
+    - 'Nemea '
+    - 'Corinth '
+    - 'Sparta '
+    correctReply: 2
+  - question: 'Which of the following was NOT associated with Poseidon?   '
+    _answers:
+    - 'Sea storms   '
+    - 'Dolphins '
+    - 'Olive trees  '
+    - 'Earthquakes '
+    correctReply: 2

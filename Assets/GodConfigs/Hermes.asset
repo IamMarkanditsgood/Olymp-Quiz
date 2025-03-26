@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Hermes
+  m_EditorClassIdentifier: 
+  types: 10
+  name: HERMES
+  godQuizzes:
+  - question: 'What is Hermes the god of?  '
+    _answers:
+    - War, poetry, and prophecy
+    - 'Fire, blacksmithing, and invention   '
+    - 'Travel, trade, messages, and boundaries   '
+    - 'The sea, horses, and storms   '
+    correctReply: 2
+  - question: 'Who were the parents of Hermes?  '
+    _answers:
+    - ' Zeus and Maia  '
+    - 'Poseidon and Leto '
+    - 'Apollo and Artemis   '
+    - 'Ares and Aphrodite   '
+    correctReply: 0
+  - question: 'What did Hermes steal on the day he was born?  '
+    _answers:
+    - "Zeus\u2019s lightning bolt"
+    - "Hera\u2019s crown"
+    - "Apollo\u2019s cattle"
+    - 'Poseidon''s trident   '
+    correctReply: 2
+  - question: 'What musical instrument did Hermes invent? '
+    _answers:
+    - 'Lyre '
+    - 'Flute '
+    - Pan pipes
+    - 'Drum '
+    correctReply: 0
+  - question: What is the caduceus?
+    _answers:
+    - 'A torch of fire '
+    - 'A sword that glows '
+    - 'A staff with two snakes, symbolizing peace and balance   '
+    - 'A bow with silver arrows   '
+    correctReply: 2
+  - question: "What was Hermes\u2019s role in the afterlife?"
+    _answers:
+    - Judge of souls
+    - 'Ruler of the underworld   '
+    - 'Punisher of the wicked   '
+    - Guide of souls to the underworld
+    correctReply: 3
+  - question: "Which hero did Hermes help resist Circe\u2019s magic?"
+    _answers:
+    - 'Heracles '
+    - 'Jason '
+    - 'Perseus '
+    - 'Odysseus '
+    correctReply: 3
+  - question: "What are Hermes\u2019s winged sandals called?"
+    _answers:
+    - 'Petasos '
+    - 'Caduceus '
+    - 'Talaria '
+    - 'Aegis '
+    correctReply: 2
+  - question: "What were stone pillars with Hermes\u2019s image called?"
+    _answers:
+    - 'Obelisks '
+    - 'Herms '
+    - 'Totems '
+    - 'Caryatids '
+    correctReply: 1
+  - question: "Which of these best describes Hermes\u2019s personality?"
+    _answers:
+    - Cold and silent
+    - 'Violent and prideful  '
+    - ' Fast, clever, and diplomatic '
+    - Loud and boastful
+    correctReply: 2

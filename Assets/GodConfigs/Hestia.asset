@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Hestia
+  m_EditorClassIdentifier: 
+  types: 11
+  name: HESTIA
+  godQuizzes:
+  - question: 'What is Hestia the goddess of?   '
+    _answers:
+    - 'War and vengeance   '
+    - 'Wisdom and battle  '
+    - ' Hearth, home, and sacred fire '
+    - 'Love and beauty '
+    correctReply: 2
+  - question: "Who were Hestia\u2019s parents?"
+    _answers:
+    - Zeus and Hera
+    - Cronus and Rhea
+    - 'Poseidon and Demeter   '
+    - Ares and Aphrodite
+    correctReply: 1
+  - question: "Why is Hestia called \u201Cthe first and the last\u201D?"
+    _answers:
+    - 'She ruled both the sky and underworld   '
+    - ' She started and ended the Trojan War   '
+    - 'She was the first swallowed and last freed by Cronus   '
+    - 'She wrote the first and last lines of the myths  '
+    correctReply: 2
+  - question: 'What important decision did Hestia make on Mount Olympus? '
+    _answers:
+    - She challenged Zeus
+    - 'She declared war on Ares   '
+    - 'She gave up her seat to Dionysus   '
+    - She left to rule the underworld
+    correctReply: 2
+  - question: "What object symbolized Hestia\u2019s presence in every home?"
+    _answers:
+    - 'A silver lamp   '
+    - 'A sacred olive branch   '
+    - 'A burning hearth fire '
+    - 'A bowl of water   '
+    correctReply: 2
+  - question: 'What type of goddess is Hestia classified as?   '
+    _answers:
+    - Warrior goddess
+    - 'Harvest goddess   '
+    - Virgin goddess
+    - Sea goddess
+    correctReply: 2
+  - question: 'Where was Hestia honored in every Greek city? '
+    _answers:
+    - 'The stadium  '
+    - 'The amphitheater  '
+    - 'The public hearth (prytaneion) '
+    - The oracle of Delphi
+    correctReply: 2
+  - question: "What was Hestia\u2019s attitude toward power and conflict?   "
+    _answers:
+    - 'Ambitious and combative   '
+    - ' Indifferent and lazy   '
+    - 'Peaceful and selfless   '
+    - 'Cruel and strategic   '
+    correctReply: 2
+  - question: What household activity was most associated with Hestia?
+    _answers:
+    - 'Weaving '
+    - ' Cooking and gathering around the fire   '
+    - 'Storytelling '
+    - 'Metalwork '
+    correctReply: 1
+  - question: "Why was letting Hestia\u2019s sacred flame die seen as dangerous?"
+    _answers:
+    - 'It released evil spirits   '
+    - It meant the gods had abandoned the home
+    - 'It symbolized the loss of order and unity   '
+    - ' It attracted monsters   '
+    correctReply: 2

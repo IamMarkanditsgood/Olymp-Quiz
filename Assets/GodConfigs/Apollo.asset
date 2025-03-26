@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Apollo
+  m_EditorClassIdentifier: 
+  types: 4
+  name: APOLLO
+  godQuizzes:
+  - question: 'Where was Apollo born? '
+    _answers:
+    - 'Crete '
+    - 'Delos '
+    - 'Athens '
+    - 'Naxos '
+    correctReply: 1
+  - question: "Who is Apollo\u2019s twin sister?"
+    _answers:
+    - 'Aphrodite '
+    - 'Hera '
+    - 'Artemis '
+    - 'Demeter '
+    correctReply: 2
+  - question: "What was Apollo\u2019s most famous oracle site?  "
+    _answers:
+    - 'Corinth '
+    - 'Dodona '
+    - 'Delphi '
+    - 'Ephesus '
+    correctReply: 2
+  - question: What musical instrument is most closely associated with Apollo?
+    _answers:
+    - 'Flute '
+    - 'Lyre '
+    - 'Drum '
+    - Pan pipes
+    correctReply: 1
+  - question: "What tree became sacred to Apollo after Daphne\u2019s transformation?"
+    _answers:
+    - 'Olive '
+    - 'Cypress '
+    - 'Laurel '
+    - 'Oak '
+    correctReply: 2
+  - question: "Which of these was NOT one of Apollo\u2019s domains? "
+    _answers:
+    - 'Prophecy '
+    - 'Wine '
+    - 'Music '
+    - 'Healing '
+    correctReply: 1
+  - question: What creature is NOT a sacred animal of Apollo?
+    _answers:
+    - 'Swan '
+    - 'Raven '
+    - 'Eagle '
+    - 'Dolphin '
+    correctReply: 2
+  - question: "Who was Apollo\u2019s son, known as the god of medicine?"
+    _answers:
+    - 'Hermes '
+    - 'Asclepius '
+    - 'Orpheus '
+    - 'Eros '
+    correctReply: 1
+  - question: 'How did Apollo bring both healing and illness? '
+    _answers:
+    - 'With golden coins   '
+    - 'Through changing the wind  '
+    - 'With his arrows  '
+    - 'By speaking divine curses '
+    correctReply: 2
+  - question: What aspect of human life did Apollo represent in contrast to Dionysus?
+    _answers:
+    - 'Passion '
+    - 'Emotion '
+    - 'Wildness '
+    - ' Reason and order '
+    correctReply: 3

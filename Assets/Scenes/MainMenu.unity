@@ -122,6 +122,126 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &7077174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7077175}
+  - component: {fileID: 7077178}
+  - component: {fileID: 7077177}
+  - component: {fileID: 7077176}
+  m_Layer: 5
+  m_Name: Nex
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7077175
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7077174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1647019759}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.055862427, y: 0.45087188}
+  m_AnchorMax: {x: 0.4938032, y: 0.9167845}
+  m_AnchoredPosition: {x: 536.69, y: 664.2234}
+  m_SizeDelta: {x: 65.557, y: 969.1938}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7077176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7077174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: 36a787a79d1722a4196584777bd69a3c, type: 3}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 7077177}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &7077177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7077174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7d6c7f361e70c424cb755d5631575e18, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &7077178
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7077174}
+  m_CullTransparentMesh: 1
 --- !u!1 &16991132
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 49295266}
+  - component: {fileID: 49295267}
   m_Layer: 5
   m_Name: Facts
   m_TagString: Untagged
@@ -696,6 +817,126 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &49295267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49295265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9fa707837abade4095e57e8c1bd01d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view: {fileID: 1883243427}
+  _screenType: 3
+  _backButton: {fileID: 616547663}
+  _okButton: {fileID: 43967300}
+  _godTitles:
+  - Master of Olympus
+  - Sovereign of the Gods
+  - God of the Deep Waters
+  - The Warrior Born of Thought
+  - The Radiant Olympian
+  - Divine Twin and Free Spirit
+  - Embodiment of Battle
+  - Bringer of Growth and Nourishment
+  - The God of Craft and Fire
+  - The Twice-Born Deity
+  - The Swift-Footed Herald
+  - The Gentle Guardian
+  _godfacts:
+  - "Zeus, ruler of Mount Olympus and sovereign over all the gods of the Greek pantheon,
+    was revered as the god of the sky, thunder, and divine authority. As the youngest
+    of the Titans Cronus and Rhea\u2019s children, he rose to power after overthrowing
+    his father, bringing about the reign of the Olympians. Zeus's presence was everywhere\u2014from
+    the crash of thunder to the laws that governed both mortals and immortals. He
+    was justice in the heavens and the force of order on earth."
+  - "Hera, sister and wife of Zeus, reigned as the queen of the Olympian pantheon.
+    She was the goddess of marriage, women, childbirth, and family\u2014domains that
+    held sacred importance in ancient Greek society. As consort to the king of the
+    gods, Hera's presence on Olympus was one of majesty and unwavering dignity. She
+    was known both for her regal nature and her fierce temper, especially when it
+    came to matters of loyalty and justice."
+  - "Poseidon, one of the twelve Olympian gods, ruled over the seas, oceans, and
+    all aquatic domains. Brother to Zeus and Hades, he was part of the divine trio
+    who divided the universe after overthrowing the Titans. While Zeus claimed the
+    sky and Hades the underworld, Poseidon received the sea. But his influence extended
+    far beyond water\u2014he was also the cause of earthquakes, storms, and horses,
+    earning him the title \u201CEarth-Shaker."
+  - "Athena, one of the most revered Olympian deities, was the goddess of wisdom,
+    strategy, crafts, and righteous warfare. Her birth was unlike any other: she
+    sprang fully grown and armored from the forehead of Zeus after he swallowed her
+    pregnant mother, Metis, the goddess of wisdom. This miraculous origin established
+    her as a being of intellect, reason, and clarity\u2014traits that defined her
+    throughout mythology."
+  - "Apollo, one of the most widely worshipped and complex deities in Greek mythology,
+    was the god of the sun, prophecy, music, healing, and archery. As the twin brother
+    of Artemis and the son of Zeus and Leto, he embodied the harmony between opposites\u2014light
+    and logic, discipline and inspiration. Radiant in form and mind, Apollo was considered
+    the most beautiful of the gods and a symbol of youthful perfection"
+  - Artemis, daughter of Zeus and Leto, and twin sister of Apollo, was the Olympian
+    goddess of the hunt, the moon, wild animals, and maidenhood. Independent, fierce,
+    and loyal to her values, she roamed forests and mountains, untouched by civilization.
+    As a virgin goddess, Artemis chose freedom over domestic life, dedicating herself
+    to nature, animals, and the protection of young women and children.
+  - Ares, son of Zeus and Hera, stood as the Olympian god of war, aggression, and
+    physical conflict. Unlike his half-sister Athena, who represented strategic warfare
+    and disciplined combat, Ares embodied the raw, brutal, and chaotic nature of
+    battle. He was the roar of clashing blades, the charge into danger, and the unrestrained
+    fury of warriors consumed by violence. Feared and respected, Ares represented
+    a necessary but destructive force of life.
+  - "Demeter, one of the great Olympian goddesses, ruled over agriculture, grain,
+    and the fertility of the earth. She was revered as the provider of nourishment
+    and the sustainer of life. Without her, the fields would wither and the soil
+    remain barren. To the Greeks, she was more than a goddess\u2014she was a daily
+    presence in every meal, every seed planted, and every harvest gathered."
+  - Hephaestus, the Olympian god of blacksmithing, fire, metalwork, and invention,
+    was the divine artisan of the gods. Though not a warrior, he forged the weapons,
+    armor, and tools used by the Olympians in their myths and battles. He ruled over
+    volcanoes, anvils, and forges, shaping the raw materials of the earth into instruments
+    of power, beauty, and function. In a pantheon of warriors and rulers, Hephaestus
+    was the quiet creator behind their greatness.
+  - "Dionysus, the enigmatic Olympian, was the god of wine, festivity, madness, theater,
+    and spiritual freedom. His origins are as complex as his nature. He was born
+    to Zeus and the mortal Semele, but when Semele perished upon seeing Zeus\u2019s
+    divine form, the unborn Dionysus was sewn into Zeus\u2019s thigh until he was
+    ready to be born again. This unusual birth granted him the title \u201Ctwice-born,\u201D
+    symbolizing rebirth, transformation, and life emerging from chaos."
+  - Hermes, the quick-witted Olympian, was the god of travel, communication, commerce,
+    thieves, and luck. As the divine messenger of the gods, he moved freely between
+    Olympus, Earth, and the Underworld, carrying the words of Zeus and other deities.
+    Known for his speed, cleverness, and charisma, Hermes was a bridge between worlds,
+    mortals, and immortals. No boundary could hold him, and no message was beyond
+    his reach.
+  - Hestia, the eldest daughter of Cronus and Rhea, was the Olympian goddess of the
+    hearth, home, and sacred fire. Quiet, calm, and ever-present, she represented
+    stability, warmth, and unity. Unlike other deities who pursued drama or conquest,
+    Hestia chose peace. She renounced her place among the active Olympians to tend
+    the eternal flame, becoming the still center of divine and mortal life.
+  _godNames:
+  - ZEUS
+  - HERA
+  - POSEIDON
+  - ATHENA
+  - APOLLO
+  - ARTEMIS
+  - ARES
+  - DEMETER
+  - HEPHAESTUS
+  - DIONYSUS
+  - HERMES
+  - HESTIA
+  _gods: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
+  _factTitle: {fileID: 1813463629}
+  _factInfo: {fileID: 755994627}
+  _godName: {fileID: 2076258412}
+  _godName2: {fileID: 238048799}
+  _factPanel: {fileID: 2093757081}
+  _timerPanel: {fileID: 1311087624}
+  _timer: {fileID: 935291169}
+  _timer1: {fileID: 244593999}
 --- !u!1 &58342265
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +1021,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 74878866}
+  - component: {fileID: 74878867}
   m_Layer: 5
   m_Name: PlayerEditor
   m_TagString: Untagged
@@ -807,6 +1049,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &74878867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74878865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889df7dc0087448459f137a18195ab0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view: {fileID: 734965261}
+  _popupType: 4
+  avatarManager: {fileID: 476865855}
+  _name: {fileID: 799091191}
+  _close: {fileID: 1200423768}
+  _save: {fileID: 1188429660}
+  _avatarButton: {fileID: 1620941889}
 --- !u!1 &83156819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,6 +1271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 145241879}
+  - component: {fileID: 145241880}
   m_Layer: 5
   m_Name: QuizLose
   m_TagString: Untagged
@@ -1037,6 +1299,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &145241880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145241878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05897958fc6dece4087c9665e75b2e4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view: {fileID: 573027043}
+  _popupType: 1
+  close: {fileID: 38079511}
+  okay: {fileID: 1442526682}
 --- !u!1 &148067317
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,6 +1534,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 179880043}
+  - component: {fileID: 179880044}
   m_Layer: 5
   m_Name: Profile
   m_TagString: Untagged
@@ -1283,6 +1562,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &179880044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179880042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb8e79a397f2f948b16cc09d0ddfbc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view: {fileID: 666222096}
+  _screenType: 5
+  avatarManager: {fileID: 476865855}
+  _homeButton: {fileID: 1985808587}
+  _infoButton: {fileID: 1389266484}
+  _profileEditor: {fileID: 2005845188}
+  _name: {fileID: 657450619}
+  _coins: {fileID: 1186091081}
+  _ahcieve: {fileID: 1929596835}
+  _openedAchieve: {fileID: 21300000, guid: 39297c6add9e63b47b02abedd063afa5, type: 3}
 --- !u!1 &226554608
 GameObject:
   m_ObjectHideFlags: 0
@@ -2025,6 +2326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 264198022}
+  - component: {fileID: 264198023}
   m_Layer: 5
   m_Name: Info
   m_TagString: Untagged
@@ -2052,6 +2354,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &264198023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264198021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd920a2b2d3ea034baf9abf1940b2535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view: {fileID: 396895310}
+  _screenType: 6
+  _profileButton: {fileID: 419765268}
+  _homeButton: {fileID: 760361529}
+  _coins: {fileID: 1109987229}
 --- !u!1 &271547335
 GameObject:
   m_ObjectHideFlags: 0
@@ -2086,8 +2405,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 28, y: -44.467102}
-  m_SizeDelta: {x: 0, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 53, y: -44.467102}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &271547337
 MonoBehaviour:
@@ -2256,7 +2575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 16991133}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
@@ -2345,8 +2664,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 577.2485, y: -44.467102}
-  m_SizeDelta: {x: 0, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 602.2485, y: -44.467102}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &287357475
 MonoBehaviour:
@@ -3100,6 +3419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 441456269}
+  - component: {fileID: 441456270}
   m_Layer: 5
   m_Name: Gallery
   m_TagString: Untagged
@@ -3127,6 +3447,178 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &441456270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441456268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81926b7efa4d5545b3a100dacbb9c66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view: {fileID: 806432893}
+  _screenType: 4
+  _backButton: {fileID: 1952006428}
+  _godName: {fileID: 984746810}
+  _godName2: {fileID: 1932969417}
+  _images:
+  - {fileID: 441673985}
+  - {fileID: 1151446422}
+  - {fileID: 647974459}
+  - {fileID: 616243098}
+  _open:
+  - {fileID: 1189152926}
+  - {fileID: 941236946}
+  - {fileID: 1241085813}
+  - {fileID: 935668699}
+  _gods:
+  - _god: 0
+    _name: ZEUS
+    _openImages:
+    - {fileID: 21300000, guid: 4b9149c22fd8bd84aa0ff09db6ebd6d0, type: 3}
+    - {fileID: 21300000, guid: 1a10a7677b185744f8603a9e44a7265e, type: 3}
+    - {fileID: 21300000, guid: 8d52c666ae474b8499695c2d06784d29, type: 3}
+    - {fileID: 21300000, guid: d48a6ff081d7731418d1f2009f035614, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: fdd9d0ad0b77e6048819a5e8fab64c92, type: 3}
+    - {fileID: 21300000, guid: b01c13468b053814caadfd0f3f4a5000, type: 3}
+    - {fileID: 21300000, guid: c5175707bf0408243892b9d3967a337f, type: 3}
+    - {fileID: 21300000, guid: 4c1c88860915c9045ae31f7676f2abb8, type: 3}
+  - _god: 1
+    _name: HERA
+    _openImages:
+    - {fileID: 21300000, guid: a5c8c31d02377114b8af0cc8cac12f75, type: 3}
+    - {fileID: 21300000, guid: 31777cf2fc1945d4091e72e545a8472d, type: 3}
+    - {fileID: 21300000, guid: a453b49ae7eb8044eab31cd187819941, type: 3}
+    - {fileID: 21300000, guid: 156a8364129f2d3479a960bf2245c2d0, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: 0d6e5a1c73c3eb049925fdcbfd55f7e9, type: 3}
+    - {fileID: 21300000, guid: 025f58395afc37144b6bb42ab8dded31, type: 3}
+    - {fileID: 21300000, guid: 698d6032a3682654d88a3aa10ce64c23, type: 3}
+    - {fileID: 21300000, guid: 2ef237b985f48eb48865b5209660e657, type: 3}
+  - _god: 2
+    _name: POSEIDON
+    _openImages:
+    - {fileID: 21300000, guid: 43b909695eeb40842932e9d7ab1b3d3f, type: 3}
+    - {fileID: 21300000, guid: 3758b81c217aa6e43ad8f11aa30f7504, type: 3}
+    - {fileID: 21300000, guid: eb0d69a91c54a184c90513aaba7e8c59, type: 3}
+    - {fileID: 21300000, guid: eb762b1990d0a2546899e2d97b431188, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: 08c53abdfa252b542947c832236b1a53, type: 3}
+    - {fileID: 21300000, guid: fdd4d90089493a146b2e6feb4bd7f106, type: 3}
+    - {fileID: 21300000, guid: 7d372fbafcd1f1a4fb0059fa32345b23, type: 3}
+    - {fileID: 21300000, guid: 6f717433c87cefa4ebeec2c8a5e6be0b, type: 3}
+  - _god: 3
+    _name: ATHENA
+    _openImages:
+    - {fileID: 21300000, guid: 052451a3115a983479e095fc1a440cd4, type: 3}
+    - {fileID: 21300000, guid: 2b6eae71f4431484c8381b2879c88161, type: 3}
+    - {fileID: 21300000, guid: cb5bbc3b473bb04468786de039c7ae8a, type: 3}
+    - {fileID: 21300000, guid: 92ca1249881f6aa4984881ef70500cb5, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: f81fc6433cfba394fa91cd05aec956e6, type: 3}
+    - {fileID: 21300000, guid: cb4f99c8988e4a14ea636c3c3a2f0dd7, type: 3}
+    - {fileID: 21300000, guid: 3e11f6b83f9d4a749b139c64fac50948, type: 3}
+    - {fileID: 21300000, guid: 08b430c48fc8b0a4ab7c15a813f43177, type: 3}
+  - _god: 4
+    _name: APOLLO
+    _openImages:
+    - {fileID: 21300000, guid: 730bcdbd30a84954c958f9a1a6872d98, type: 3}
+    - {fileID: 21300000, guid: 78c8c44f7eff7654888e876e0a7b4796, type: 3}
+    - {fileID: 21300000, guid: e5456fbc1a4a6f540849219b4606df94, type: 3}
+    - {fileID: 21300000, guid: d2b13d9028c90514fb8ff085b7054460, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: 75776541ff1b45f4882ba6948e059b18, type: 3}
+    - {fileID: 21300000, guid: 0ee4de320a7e0aa49a98448b37645fb8, type: 3}
+    - {fileID: 21300000, guid: f9baf531a294ed44da1f72f23310f7d6, type: 3}
+    - {fileID: 21300000, guid: c9fe187fe724e9e4bb49c2322cb23499, type: 3}
+  - _god: 5
+    _name: ARTEMIS
+    _openImages:
+    - {fileID: 21300000, guid: 367da768b6d3aa841a219afcdd09a8bd, type: 3}
+    - {fileID: 21300000, guid: 54340b9315b72ad44bb6e30050a462f8, type: 3}
+    - {fileID: 21300000, guid: c17bc821f2afb7a4f9135d16b9d3f67e, type: 3}
+    - {fileID: 21300000, guid: 052451a3115a983479e095fc1a440cd4, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: a1af566ec7140394eb7c31795f3c272d, type: 3}
+    - {fileID: 21300000, guid: 2a96c9d4bfd97b14793ac46891182920, type: 3}
+    - {fileID: 21300000, guid: 390e51405bf187a448c6a6590fd86efa, type: 3}
+    - {fileID: 21300000, guid: b6dc25d79fdeea140a540f696bb4c39a, type: 3}
+  - _god: 6
+    _name: ARES
+    _openImages:
+    - {fileID: 21300000, guid: 39c554a0561827c4baf116b2c70337cd, type: 3}
+    - {fileID: 21300000, guid: 3233043fb84b4d44ba5a619f0e4f5a90, type: 3}
+    - {fileID: 21300000, guid: 16b9ca12a8572e64ebd440dca31bbe90, type: 3}
+    - {fileID: 21300000, guid: a88d52520b4a9494aaa325fe85ef643a, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: 036a8319a159a7d4599cca73322c730a, type: 3}
+    - {fileID: 21300000, guid: 803a310e3b40f074ebbe72d08df9e68f, type: 3}
+    - {fileID: 21300000, guid: 9350415ec41616a49b6baebff7d30532, type: 3}
+    - {fileID: 21300000, guid: b44a41c75e736b84aa4d45dbb6e8d50d, type: 3}
+  - _god: 7
+    _name: DEMETER
+    _openImages:
+    - {fileID: 21300000, guid: f5aa7a581117ed347840b1c194dde96c, type: 3}
+    - {fileID: 21300000, guid: 13b95c8d926957e41a00a78f1de35b81, type: 3}
+    - {fileID: 21300000, guid: 8ebef5efa63bf3e4fb3ba31fc1858720, type: 3}
+    - {fileID: 21300000, guid: 78772c886035dfa44989d1cbce79107a, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: 41398dd192a43704a95317ac8655be65, type: 3}
+    - {fileID: 21300000, guid: 5a2d84a28d6b01b4aa2e99a27258b6a6, type: 3}
+    - {fileID: 21300000, guid: c462e95efdac8bb4b89f7ed226414135, type: 3}
+    - {fileID: 21300000, guid: 5fd5f871dfe68ac4fad5dd814db71348, type: 3}
+  - _god: 8
+    _name: HEPHAESTUS
+    _openImages:
+    - {fileID: 21300000, guid: cbb21a3d9d59f3448869e61165279113, type: 3}
+    - {fileID: 21300000, guid: 6e23595eeaf928c428ad34de977c177e, type: 3}
+    - {fileID: 21300000, guid: b9ceec9b228636b408330b92851a7876, type: 3}
+    - {fileID: 21300000, guid: 4f80784e4425e0a469fee39d846bb539, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: ff06e809fd2cac44f938592af22f2c21, type: 3}
+    - {fileID: 21300000, guid: ad120b2198c36724bb953a4e37e65652, type: 3}
+    - {fileID: 21300000, guid: c884b0a5a5557cc438e860c8dacd7ef3, type: 3}
+    - {fileID: 21300000, guid: 1480e4d452b5d15418521277f62f5e46, type: 3}
+  - _god: 9
+    _name: DIONUSUS
+    _openImages:
+    - {fileID: 21300000, guid: 99b9f446995c40b4cbf3f326eed8f72a, type: 3}
+    - {fileID: 21300000, guid: 106951eb72f25ec4ab2f9d7d7c273339, type: 3}
+    - {fileID: 21300000, guid: 416e9bc6fe40b8143ba7837380293728, type: 3}
+    - {fileID: 21300000, guid: cdabbce54aa98ea41bf838ae24d9b3c5, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: 9fc00b9b28aebe34a970def3721f42c6, type: 3}
+    - {fileID: 21300000, guid: edf973549c8f31b44a4a4cb6382c207c, type: 3}
+    - {fileID: 21300000, guid: 8f7d01394ddbb7f4b94ebbf5376917b3, type: 3}
+    - {fileID: 21300000, guid: b09b8fdd0f4557a4e85a5eb6f6425aed, type: 3}
+  - _god: 10
+    _name: HERMES
+    _openImages:
+    - {fileID: 21300000, guid: eddda3ecc7e448e4e8e602422e6dffc4, type: 3}
+    - {fileID: 21300000, guid: dcebde32a92ba6349b93bf0246855daa, type: 3}
+    - {fileID: 21300000, guid: f007ff66676e83946815205d0bef139e, type: 3}
+    - {fileID: 21300000, guid: f630d998d0c291e44a5faa064c173aa1, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: f64c12dc6283c9642b83c73c6366b163, type: 3}
+    - {fileID: 21300000, guid: 8f209a72f5a4c1842a2ceb6cdcd27bed, type: 3}
+    - {fileID: 21300000, guid: a2dd28738b1658d499a2b663d9985f28, type: 3}
+    - {fileID: 21300000, guid: 6506aa97fff94d3478cc3ded28cc562d, type: 3}
+  - _god: 11
+    _name: HESTIA
+    _openImages:
+    - {fileID: 21300000, guid: e813c74285ee54c468c42fc2a0fd71b6, type: 3}
+    - {fileID: 21300000, guid: 9c26140982d200f408703f86ee55ef16, type: 3}
+    - {fileID: 21300000, guid: dbb984f1df8a5a24a87ae96dd9e3357d, type: 3}
+    - {fileID: 21300000, guid: c2f293ae33fc8c04480ef11caa0725c6, type: 3}
+    _closedImages:
+    - {fileID: 21300000, guid: 703c0a7d6f133bf47a53534a82b7c79f, type: 3}
+    - {fileID: 21300000, guid: 97d572deff2c68f41b73b33598565da6, type: 3}
+    - {fileID: 21300000, guid: 1659102ca61b319468c2bb1a2cc401bc, type: 3}
+    - {fileID: 21300000, guid: a8870900a94af3b449f1bcf8be494676, type: 3}
 --- !u!1 &441673983
 GameObject:
   m_ObjectHideFlags: 0
@@ -3203,6 +3695,200 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 441673983}
   m_CullTransparentMesh: 1
+--- !u!1 &471688352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 471688353}
+  - component: {fileID: 471688356}
+  - component: {fileID: 471688355}
+  - component: {fileID: 471688354}
+  m_Layer: 5
+  m_Name: Prev
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &471688353
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471688352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1647019759}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.055862427, y: 0.45087188}
+  m_AnchorMax: {x: 0.4938032, y: 0.9167845}
+  m_AnchoredPosition: {x: -21.549, y: 664.22}
+  m_SizeDelta: {x: 65.557, y: 969.1938}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &471688354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471688352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: 36a787a79d1722a4196584777bd69a3c, type: 3}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 471688355}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &471688355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471688352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7d6c7f361e70c424cb755d5631575e18, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &471688356
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471688352}
+  m_CullTransparentMesh: 1
+--- !u!1 &476865852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 476865854}
+  - component: {fileID: 476865853}
+  - component: {fileID: 476865855}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &476865853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476865852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19b626dccf9af843bb70c1c901505ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _screens:
+  - {fileID: 2004246914}
+  - {fileID: 1951312532}
+  - {fileID: 1546999328}
+  - {fileID: 49295267}
+  - {fileID: 441456270}
+  - {fileID: 179880044}
+  - {fileID: 264198023}
+  _popups:
+  - {fileID: 612820723}
+  - {fileID: 145241880}
+  - {fileID: 551543820}
+  - {fileID: 74878867}
+--- !u!4 &476865854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476865852}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 562.5, y: 1218, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &476865855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476865852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bcf4bc3e49f7044e8b5316e62c951aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _avatar: {fileID: 959101207}
+  _avatarHome: {fileID: 1809357324}
+  _editorHome: {fileID: 1620941887}
+  _basicAvatar: {fileID: 2800000, guid: 6332c6a7a63dfed4d9dda51b8a6080da, type: 3}
 --- !u!1 &493304357
 GameObject:
   m_ObjectHideFlags: 0
@@ -3599,8 +4285,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 96.65605, y: -44.467102}
-  m_SizeDelta: {x: 0, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 121.65606, y: -44.467102}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &517296739
 MonoBehaviour:
@@ -3750,8 +4436,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 302.6242, y: -44.467102}
-  m_SizeDelta: {x: 0, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 327.62424, y: -44.467102}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &545644084
 MonoBehaviour:
@@ -3800,6 +4486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 551543819}
+  - component: {fileID: 551543820}
   m_Layer: 5
   m_Name: NoMoneyImage (1)
   m_TagString: Untagged
@@ -3827,6 +4514,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &551543820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551543818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018f3839a66b8614eadc4c11aed1a195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view: {fileID: 383175503}
+  _popupType: 3
+  close: {fileID: 1307535903}
+  okay: {fileID: 1064651154}
 --- !u!1 &560023668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,7 +4699,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39297c6add9e63b47b02abedd063afa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c77e2cc1c376ae04d8ff4191a7180d05, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4048,7 +4751,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.8562501}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.0000076293945}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0.000015258789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &610686578
@@ -4135,6 +4838,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 612820722}
+  - component: {fileID: 612820723}
   m_Layer: 5
   m_Name: QuizWin
   m_TagString: Untagged
@@ -4162,6 +4866,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &612820723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612820721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05897958fc6dece4087c9665e75b2e4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view: {fileID: 840525273}
+  _popupType: 0
+  close: {fileID: 1731077369}
+  okay: {fileID: 2021728688}
 --- !u!1 &616243096
 GameObject:
   m_ObjectHideFlags: 0
@@ -4273,7 +4993,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.05865975, y: 0.8899198}
   m_AnchorMax: {x: 0.17796817, y: 0.9438074}
-  m_AnchoredPosition: {x: -0.000030517578, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &616547663
@@ -4626,7 +5346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39297c6add9e63b47b02abedd063afa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2b4a931ef61d0144d80cf0108aa571b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4876,7 +5596,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39297c6add9e63b47b02abedd063afa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4333e1c7dfa2f544e8a012c2e51491a6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5084,8 +5804,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 508.5924, y: -44.467102}
-  m_SizeDelta: {x: 0, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 533.5924, y: -44.467102}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &713358898
 MonoBehaviour:
@@ -5542,7 +6262,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.055862427, y: 0.45087188}
   m_AnchorMax: {x: 0.4938032, y: 0.9167845}
-  m_AnchoredPosition: {x: -0.0000038146973, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.0000076293945, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749028327
@@ -6082,8 +6802,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 233.96814, y: -44.467102}
-  m_SizeDelta: {x: 0, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 258.96817, y: -44.467102}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &771604846
 MonoBehaviour:
@@ -6157,8 +6877,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 165.3121, y: -44.467102}
-  m_SizeDelta: {x: -0.000015258789, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 190.31212, y: -44.467102}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &786173430
 MonoBehaviour:
@@ -7302,8 +8022,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 371.28027, y: -44.467102}
-  m_SizeDelta: {x: 0, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 396.28027, y: -44.467102}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887135039
 MonoBehaviour:
@@ -10781,7 +11501,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39297c6add9e63b47b02abedd063afa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9391c266ff2225f4ca0c25329984f4ec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10851,7 +11571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 408262348}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
@@ -11547,7 +12267,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39297c6add9e63b47b02abedd063afa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 64a37ca6da9b5974dad0b97786d20089, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11952,7 +12672,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39297c6add9e63b47b02abedd063afa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e0b4303a28d06745b6d5052370a0307, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12506,7 +13226,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.05865975, y: 0.23422427}
   m_AnchorMax: {x: 0.17796817, y: 0.6090948}
-  m_AnchoredPosition: {x: -0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1525426691
@@ -12600,6 +13320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1546999327}
+  - component: {fileID: 1546999328}
   m_Layer: 5
   m_Name: Quiz
   m_TagString: Untagged
@@ -12627,6 +13348,74 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1546999328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546999326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88452ba14d05e694c8133ae19f6ffd83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view: {fileID: 1739773131}
+  _screenType: 2
+  _timer: {fileID: 1685428793}
+  _points:
+  - {fileID: 271547337}
+  - {fileID: 517296739}
+  - {fileID: 786173430}
+  - {fileID: 771604846}
+  - {fileID: 545644084}
+  - {fileID: 887135039}
+  - {fileID: 1677466590}
+  - {fileID: 713358898}
+  - {fileID: 287357475}
+  - {fileID: 2134187979}
+  replies: 
+  _currentPoint: {fileID: 21300000, guid: 9d69630e908ff674a91b655f02501133, type: 3}
+  _defaultPoint: {fileID: 21300000, guid: 9a3c85596ac7cf341bba8218e1d223b1, type: 3}
+  _corectPoint: {fileID: 21300000, guid: b3fd692e8e2503f4a9784a47c9325dd8, type: 3}
+  _incorectPoint: {fileID: 21300000, guid: 3d76aad13c33307458b3ea71b8f521d3, type: 3}
+  _answersButton:
+  - {fileID: 1629863187}
+  - {fileID: 1316006677}
+  - {fileID: 254378848}
+  - {fileID: 1007706985}
+  _answers:
+  - {fileID: 1629863188}
+  - {fileID: 1316006678}
+  - {fileID: 254378849}
+  - {fileID: 1007706986}
+  _answerText:
+  - {fileID: 226554610}
+  - {fileID: 807256713}
+  - {fileID: 1067376229}
+  - {fileID: 1366852630}
+  _defaultButton: {fileID: 21300000, guid: c1ee71c8a372ae54bbe3215d1e7104a0, type: 3}
+  _selecterdButton: {fileID: 21300000, guid: efb0f983ba14f5e44a2b457137f92931, type: 3}
+  _correctButton: {fileID: 21300000, guid: a7fd6c21a02303c4bbf3ef77ba55ea01, type: 3}
+  _incorrectButton: {fileID: 21300000, guid: 1b514f2ac37d1244e9bfd3e10ef2131c, type: 3}
+  _question: {fileID: 493304359}
+  _reply: {fileID: 1088890398}
+  _next: {fileID: 1116705302}
+  _godconfigs:
+  - {fileID: 11400000, guid: c5a7a7a4805e1e24695d80dc74bc066f, type: 2}
+  - {fileID: 11400000, guid: 6d64479b9b6cf1149a960f2df659049e, type: 2}
+  - {fileID: 11400000, guid: 83dc00ef3dfe09f4083753842c5aa4d8, type: 2}
+  - {fileID: 11400000, guid: 2e8656bd95fc7284e93caeb156bbef69, type: 2}
+  - {fileID: 11400000, guid: cc7068419fcfef94cb827ed653a14704, type: 2}
+  - {fileID: 11400000, guid: 0c2b952242ef56948807e2580437fd68, type: 2}
+  - {fileID: 11400000, guid: 5b110ce627244a8488e355c630ca5e95, type: 2}
+  - {fileID: 11400000, guid: 42b061fe8a4dc424d94b7701d6d0e587, type: 2}
+  - {fileID: 11400000, guid: dd1414658d614f6479509137f8583db0, type: 2}
+  - {fileID: 11400000, guid: 941919f49c8c74946b575b4b52e94a28, type: 2}
+  - {fileID: 11400000, guid: cf602376766dea547833794df2b461c2, type: 2}
+  - {fileID: 11400000, guid: 511a111af2e455e46834631a70c84d26, type: 2}
+  _close: {fileID: 1525426691}
+  _winResultText: {fileID: 639204597}
 --- !u!1 &1568309448
 GameObject:
   m_ObjectHideFlags: 0
@@ -12824,6 +13613,7 @@ GameObject:
   - component: {fileID: 1620941886}
   - component: {fileID: 1620941888}
   - component: {fileID: 1620941887}
+  - component: {fileID: 1620941889}
   m_Layer: 5
   m_Name: RawImage
   m_TagString: Untagged
@@ -12886,6 +13676,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620941885}
   m_CullTransparentMesh: 1
+--- !u!114 &1620941889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620941885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1620941887}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1629863185
 GameObject:
   m_ObjectHideFlags: 0
@@ -13036,6 +13870,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 7077175}
+  - {fileID: 471688353}
   - {fileID: 749028326}
   - {fileID: 1230638312}
   - {fileID: 718037557}
@@ -13081,8 +13917,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 439.93634, y: -44.467102}
-  m_SizeDelta: {x: 0, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 464.93637, y: -44.467102}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1677466590
 MonoBehaviour:
@@ -13314,7 +14150,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39297c6add9e63b47b02abedd063afa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fa939861dd15a81489f97274c2d11883, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14152,7 +14988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.055862427, y: -0.029590448}
   m_AnchorMax: {x: 0.4938032, y: 0.43632218}
-  m_AnchoredPosition: {x: -0.0000038146973, y: -0.0000009536743}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.0000076293945, y: 0.0000019073486}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761933473
@@ -14571,7 +15407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 1741252382}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
@@ -15211,7 +16047,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39297c6add9e63b47b02abedd063afa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ab3050a3a1f878942b266c0590c76376, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15323,7 +16159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39297c6add9e63b47b02abedd063afa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a69044348a4fc5419364facb8fb4b48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15790,6 +16626,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1951312531}
+  - component: {fileID: 1951312532}
   m_Layer: 5
   m_Name: GodInfo
   m_TagString: Untagged
@@ -15817,6 +16654,756 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1951312532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951312530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89062c6a58602c04b8eca9715f07fbb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view: {fileID: 2108449458}
+  _screenType: 1
+  _backButton: {fileID: 2127488187}
+  _quizButton: {fileID: 1858145056}
+  _godImage: {fileID: 750463988}
+  _godImages:
+  - {fileID: 21300000, guid: 8005b013e8b9b634d843fbba5c0164bb, type: 3}
+  - {fileID: 21300000, guid: 0cce9def318e9e94cb0006a95ae13624, type: 3}
+  - {fileID: 21300000, guid: 9f44e71e0eb67ea49a8979bc34e93764, type: 3}
+  - {fileID: 21300000, guid: ca184885085a2874c94dfc57f8b9193f, type: 3}
+  - {fileID: 21300000, guid: baeef06fc53d00c43b37640d7939cff7, type: 3}
+  - {fileID: 21300000, guid: 8ddf9d3ecf037814ea7f902f9be375cc, type: 3}
+  - {fileID: 21300000, guid: 3851ee6f2dba74c49989d1950a4fb0f3, type: 3}
+  - {fileID: 21300000, guid: cfc87679d83073c4f99f5c0e3d457acc, type: 3}
+  - {fileID: 21300000, guid: 54ded8a99a7be4c409b9f8a0eb35dc1c, type: 3}
+  - {fileID: 21300000, guid: d9f2c23a951ff6c47831101f9d579512, type: 3}
+  - {fileID: 21300000, guid: b861c8117af72274092386fb23a5bba2, type: 3}
+  - {fileID: 21300000, guid: ef2fd9c6c42c20e478ad96b68a2b923b, type: 3}
+  _godNames:
+  - {fileID: 560023668}
+  - {fileID: 1367812196}
+  - {fileID: 1468083092}
+  - {fileID: 842529848}
+  - {fileID: 742041591}
+  - {fileID: 515731481}
+  - {fileID: 804975116}
+  - {fileID: 1520122631}
+  - {fileID: 251950155}
+  - {fileID: 1863049141}
+  - {fileID: 939631759}
+  - {fileID: 1275436379}
+  _godInfos:
+  - 'Zeus, the supreme ruler of the Olympian gods, is a central figure in Greek mythology
+    and religion. He is known as the god of the sky, thunder, lightning, law, order,
+    and justice. As the youngest son of the Titans Cronus and Rhea, Zeus''s birth
+    and subsequent rise to power are tales of intrigue and rebellion.
+
+    Zeus was
+    born during a time of great strife. Cronus, his father, had learned from a prophecy
+    that one of his children would overthrow him. To prevent this, Cronus swallowed
+    each of his offspring as soon as they were born. However, Rhea, his wife, could
+    not bear the loss of all her children. When Zeus was born, she devised a plan
+    to save him. Rhea handed Cronus a stone wrapped in swaddling clothes, which he
+    promptly swallowed, thinking it was the newborn Zeus. Meanwhile, Rhea secretly
+    sent Zeus to be raised on the island of Crete.
+
+    In Crete, Zeus was nurtured
+    by the nymphs and guarded by the Curetes, who drowned out his cries by clashing
+    their weapons. As Zeus grew, he developed his strength and cunning, preparing
+    for the day he would challenge his father. Upon reaching adulthood, Zeus sought
+    the counsel of Metis, the goddess of wisdom, who gave him an emetic potion to
+    force Cronus to disgorge his swallowed siblings: Hestia, Demeter, Hera, Hades,
+    and Poseidon.
+
+    With his siblings freed, Zeus led a rebellion against Cronus
+    and the Titans, a war that lasted ten years, known as the Titanomachy. Zeus and
+    his allies, which included his siblings, the Hecatoncheires (hundred-handed giants),
+    and the Cyclopes (who forged his thunderbolts), finally defeated the Titans.
+    The defeated Titans were then imprisoned in Tartarus, a deep abyss used as a
+    dungeon of torment.
+
+    After the war, Zeus and his brothers, Poseidon and Hades,
+    drew lots to divide the realms of the world. Zeus won the sky, Poseidon the sea,
+    and Hades the underworld. Earth was left to be shared among them. As the ruler
+    of the sky, Zeus was also seen as the god who upheld law and order, a role that
+    extended to both the divine and mortal realms.
+
+    Zeus is often depicted as
+    a regal, mature man with a sturdy figure and dark beard. He is commonly shown
+    holding a thunderbolt, his most potent weapon, and seated on a grand throne.
+    His sacred animal is the eagle, symbolizing his dominion over the sky. The oak
+    tree is also sacred to him, and the Dodona Oracle, where priests interpreted
+    the rustling of oak leaves as messages from Zeus, was one of his most significant
+    cult sites.
+
+    Zeus''s influence extends beyond his physical prowess and dominion.
+    He was also a complex deity with many facets, embodying both just and merciful
+    qualities. He was the protector of the weak and the punisher of the wicked, often
+    intervening in human affairs to maintain balance and justice. However, Zeus was
+    not without his flaws. His numerous love affairs, with both goddesses and mortal
+    women, often caused strife among the gods and brought many offspring into the
+    world, including notable figures like Hercules, Perseus, and Helen of Troy.
+
+    Zeus''s
+    numerous affairs and resulting offspring often led to complicated relationships
+    and conflicts among the gods. His wife, Hera, was particularly known for her
+    jealousy and wrath against Zeus''s lovers and illegitimate children. Despite
+    this, Zeus maintained his position as the king of the gods, often mediating disputes
+    and ensuring the order of the cosmos.
+
+    One of the most famous myths involving
+    Zeus is the story of Prometheus. Prometheus, a Titan and a friend to humanity,
+    stole fire from the gods and gave it to humans, an act that enabled progress
+    and civilization. Enraged by this defiance, Zeus punished Prometheus by having
+    him bound to a rock where an eagle would eat his liver daily, only for it to
+    regenerate each night. This myth highlights Zeus''s role as a guardian of divine
+    secrets and order, punishing those who defied his will.
+
+    Zeus''s legacy is
+    not only confined to Greek mythology. His Roman equivalent, Jupiter, shared many
+    of his attributes and stories, demonstrating the widespread influence of his
+    mythos. Zeus''s archetype as a sky god, lawgiver, and father of gods and men
+    influenced various cultures and religions, underscoring his significant place
+    in the pantheon of ancient deities.'
+  - 'Hera, the queen of the gods and the wife of Zeus, is one of the most prominent
+    figures in Greek mythology. She is known as the goddess of marriage, women, childbirth,
+    and family. Hera''s role as the consort of Zeus places her at the center of many
+    mythological tales, often highlighting her powerful and complex character.
+
+    Hera
+    was the daughter of the Titans Cronus and Rhea, making her both sister and wife
+    to Zeus. Like her siblings, she was swallowed by Cronus at birth and later regurgitated
+    after Zeus tricked their father. Hera''s marriage to Zeus was fraught with tension
+    due to Zeus''s numerous infidelities. As the goddess of marriage, Hera''s reaction
+    to these infidelities was often one of jealousy and vengeance, directing her
+    wrath not only at Zeus''s lovers but also at their offspring.
+
+    Despite her
+    fierce jealousy, Hera was also a protector of marriage and childbirth. She was
+    revered by women, who looked to her for blessings in their domestic roles. Her
+    sacred animals include the cow, symbolizing fertility and nurturing, and the
+    peacock, known for its beauty and association with the eyes of Argus, a giant
+    whose hundred eyes were placed on the peacock''s tail after his death.
+
+    Hera''s
+    influence extended to many myths and stories. One of the most famous is her role
+    in the Judgment of Paris. The myth begins with the golden apple inscribed "to
+    the fairest," thrown by Eris, the goddess of discord, at the wedding of Peleus
+    and Thetis. Hera, along with Athena and Aphrodite, claimed the apple. The task
+    of deciding who was the fairest fell to Paris, a prince of Troy. Each goddess
+    offered Paris a bribe: Hera promised him power and kingship, Athena offered wisdom
+    and military prowess, and Aphrodite promised the love of the most beautiful mortal
+    woman, Helen. Paris chose Aphrodite, leading to the events that sparked the Trojan
+    War.
+
+    Hera''s jealousy and protective nature are further illustrated in the
+    myth of Heracles (Hercules). Heracles, a son of Zeus by the mortal woman Alcmene,
+    was a constant target of Hera''s wrath. From sending serpents to kill him in
+    his cradle to later imposing the Twelve Labors upon him, Hera''s attempts to
+    thwart Heracles were relentless. Despite her efforts, Heracles completed his
+    labors and achieved great fame, ultimately being reconciled with Hera and granted
+    a place on Mount Olympus.
+
+    Another significant myth involving Hera is her
+    role in the story of Io. Io was a priestess of Hera and one of Zeus''s lovers.
+    To protect Io from Hera''s wrath, Zeus transformed her into a cow. However, Hera
+    demanded the cow as a gift and set Argus, the hundred-eyed giant, to guard her.
+    Zeus eventually sent Hermes to rescue Io by killing Argus. Hera then sent a gadfly
+    to torment Io, who wandered the earth in cow form until she was finally restored
+    to her human form by Zeus and bore him a son, Epaphus.
+
+    Hera''s worship was
+    widespread in ancient Greece, with major cult centers at Argos, Samos, and Olympia.
+    The Heraion of Samos was one of the largest and most important temples dedicated
+    to her. Hera''s festivals, such as the Heraia, were significant events where
+    athletic competitions and sacrifices were held in her honor.
+
+    Despite her
+    often vengeful nature, Hera was also a symbol of the sanctity of marriage and
+    the protector of women. Her complex personality, embodying both nurturing and
+    vengeful aspects, made her one of the most intriguing and multifaceted deities
+    in Greek mythology.'
+  - 'Poseidon, the god of the sea, earthquakes, and horses, is one of the twelve
+    Olympian deities in Greek mythology. He is one of the three brothers who divided
+    the world among themselves after overthrowing their father, Cronus. Zeus took
+    the sky, Hades the underworld, and Poseidon the sea.
+
+    Poseidon was born to
+    the Titans Cronus and Rhea. Like his siblings, he was swallowed by Cronus at
+    birth and later regurgitated by a trick devised by Zeus. After the Titanomachy,
+    Poseidon, along with his brothers, drew lots to divide the realms of the world,
+    with Poseidon claiming the sea as his domain. As the ruler of the oceans, Poseidon
+    wielded great power and was revered by sailors and coastal communities.
+
+    Poseidon
+    is often depicted as a robust, mature man with a long beard, holding a trident,
+    a three-pronged spear that could shake the earth and shatter any object. His
+    association with the sea also extends to various sea creatures, including dolphins,
+    which are often shown accompanying him. Poseidon''s palace was said to be located
+    on the ocean floor, crafted from coral and gems.
+
+    Poseidon''s temper was
+    as volatile as the sea he ruled. He was known for his mood swings, causing calm
+    seas or violent storms depending on his disposition. This dual nature made him
+    a figure of both reverence and fear among the ancient Greeks.
+
+    One of Poseidon''s
+    notable myths is his rivalry with Athena over the patronage of the city of Athens.
+    According to the myth, both deities wanted to become the patron of the city and
+    offered gifts to its people. Poseidon struck the ground with his trident, creating
+    a saltwater spring, while Athena offered the olive tree. The Athenians, led by
+    King Cecrops, chose Athena''s gift, and she became the city''s patron. In another
+    version, Poseidon offered a horse instead of a spring, symbolizing strength and
+    transportation.
+
+    Poseidon''s love affairs and offspring were numerous, much
+    like his brother Zeus. He fathered many notable figures, both mortal and divine.
+    One of his most famous sons was Theseus, a hero and king of Athens, who was conceived
+    when Poseidon and Aethra, a mortal woman, lay together. Another notable offspring
+    was Triton, a merman who served as Poseidon''s herald.
+
+    Poseidon''s wrath
+    was legendary, often triggered by slights or disrespect. The most famous example
+    of his vengeance is the story of Odysseus. After the hero blinded Poseidon''s
+    son Polyphemus, a Cyclops, Poseidon cursed Odysseus to wander the seas for ten
+    years before he could return home to Ithaca. This curse led to many of the trials
+    and tribulations Odysseus faced during his epic journey as recounted in Homer''s
+    "Odyssey."
+
+    Poseidon''s influence was not limited to the sea. He was also
+    the god of earthquakes, earning the epithet "Earth-shaker." His ability to cause
+    earthquakes further emphasized his formidable power and the respect he commanded.
+
+    In
+    addition to his tempestuous nature, Poseidon had a benevolent side. He was the
+    god of horses and horse racing, revered for bringing the horse to humanity. This
+    aspect of Poseidon was particularly significant in regions where horse breeding
+    and chariot racing were prominent, such as Thessaly and Corinth.
+
+    Poseidon''s
+    worship was widespread across the Greek world, with major temples dedicated to
+    him, such as the Temple of Poseidon at Sounion, overlooking the Aegean Sea. Festivals
+    in his honor, like the Isthmian Games held near Corinth, celebrated his influence
+    and sought his favor.'
+  - 'Athena, also known as Pallas Athena, is one of the most important and complex
+    deities in Greek mythology. She is the goddess of wisdom, war, and crafts, often
+    depicted as a warrior maiden with a helmet, shield, and spear. Athena was revered
+    not only for her strategic prowess in battle but also for her intellect, fairness,
+    and patronage of various arts and crafts.
+
+    Athena''s birth is one of the
+    most unusual in Greek mythology. She sprang fully grown and armored from the
+    forehead of her father, Zeus. This remarkable event occurred after Zeus swallowed
+    her pregnant mother, Metis, to prevent a prophecy that Metis''s child would be
+    more powerful than its father. Athena''s emergence from Zeus''s head symbolized
+    her close connection to her father and her embodiment of both wisdom and warfare.
+
+    As
+    a warrior goddess, Athena was known for her strategic and disciplined approach
+    to conflict, contrasting with the more chaotic and brutal nature of Ares, the
+    god of war. Athena preferred tactics and planning over sheer force, and she often
+    assisted heroes and mortals in their quests. Her guidance was instrumental in
+    the success of many mythological figures, including Odysseus during the Trojan
+    War.
+
+    Athena''s association with wisdom extended beyond warfare. She was
+    also the goddess of crafts, including weaving, pottery, and various forms of
+    artistic and intellectual endeavors. One of her most famous myths involves a
+    contest with Arachne, a mortal weaver who dared to challenge Athena''s skill.
+    Despite Arachne''s impressive work, she was punished for her hubris and transformed
+    into a spider by Athena.
+
+    Athena''s role as the patroness of Athens is another
+    significant aspect of her mythology. According to the legend, she competed with
+    Poseidon for the favor of the city''s people. While Poseidon offered a saltwater
+    spring or a horse, Athena gifted the olive tree, which provided food, oil, and
+    wood. The Athenians chose Athena''s gift, and she became the city''s protector.
+    The Parthenon, a magnificent temple on the Acropolis, was built in her honor
+    and housed a colossal statue of the goddess.
+
+    Athena''s symbols include the
+    owl, representing wisdom and keen sight, and the olive tree, symbolizing peace
+    and prosperity. Her armor and weapons also signify her martial aspect, while
+    her aegis, a protective cloak often depicted with the head of the Gorgon Medusa,
+    represents her protective nature.
+
+    Athena''s virginity, or eternal maidenhood,
+    is a defining characteristic. She is one of the three virgin goddesses, along
+    with Artemis and Hestia. This aspect of her nature underscores her independence
+    and dedication to her divine duties, unencumbered by romantic entanglements.
+
+    In
+    addition to her role in the Trojan War, where she supported the Greeks and guided
+    heroes like Odysseus and Achilles, Athena played a crucial part in numerous other
+    myths. She aided Perseus in his quest to slay Medusa, provided assistance to
+    Hercules during his labors, and was involved in the foundation of many cities
+    and institutions.
+
+    Athena''s worship was widespread throughout the Greek
+    world, and she was venerated in numerous festivals and ceremonies. The Panathenaea,
+    held in Athens, was one of the most important festivals dedicated to her, featuring
+    athletic competitions, musical contests, and a grand procession to the Acropolis.
+
+    Athena''s
+    legacy extends beyond ancient Greece. She was revered by the Romans as Minerva
+    and continues to be a symbol of wisdom, justice, and strategic warfare in modern
+    culture. Her image adorns numerous works of art, literature, and public monuments,
+    reflecting her enduring influence on Western civilization.'
+  - "Apollo, one of the most venerated deities in Greek mythology, is the god of
+    music, poetry, art, prophecy, healing, and the Sun. He is a multifaceted god
+    known for his beauty, intelligence, and artistic abilities. Apollo is the son
+    of Zeus and Leto and the twin brother of Artemis, the goddess of the hunt and
+    the Moon.\nApollo\u2019s birth was surrounded by difficulties due to Hera's jealousy.
+    Hera, furious at Leto for bearing Zeus's children, forbade any land to provide
+    shelter for Leto. However, the floating island of Delos offered refuge, and there
+    Leto gave birth to Apollo and Artemis. This island later became one of Apollo\u2019s
+    sacred sites, with a major temple dedicated to him.\nApollo is often depicted
+    as a handsome, beardless youth with long hair, symbolizing eternal youth and
+    beauty. He is frequently shown holding a lyre, an instrument associated with
+    his mastery over music, and a laurel wreath, representing his role as the god
+    of prophecy. The laurel wreath is also linked to the myth of Daphne, a nymph
+    who transformed into a laurel tree to escape Apollo\u2019s pursuit.\nAs the god
+    of prophecy, Apollo's most famous oracle was located at Delphi, a site that attracted
+    visitors from all over the ancient world seeking guidance. The Pythia, the priestess
+    of Apollo at Delphi, would deliver cryptic predictions and advice, which were
+    interpreted by priests. Delphi was considered the center of the world in ancient
+    Greek religion, and Apollo\u2019s influence as a prophetic god was immense.\nApollo\u2019s
+    role as a healer is another significant aspect of his mythology. He was believed
+    to have the power to bring plague and disease, but also to cure them. His son
+    Asclepius, whom he fathered with the mortal woman Coronis, became the god of
+    medicine. Asclepius's symbol, the rod of Asclepius, remains a symbol of medical
+    practice today.\nApollo's association with the Sun comes from his later identification
+    with Helios, the original sun god. In this role, Apollo drove the chariot of
+    the Sun across the sky, bringing light to the world. His sister Artemis, conversely,
+    was associated with the Moon, highlighting their complementary roles in Greek
+    mythology.\nApollo\u2019s musical talents were unrivaled among the gods. He was
+    said to have invented the lyre, although some myths attribute this to Hermes.
+    Apollo\u2019s musical prowess is showcased in his contests, such as the famous
+    contest with the satyr Marsyas. Marsyas, who challenged Apollo, was ultimately
+    defeated and punished for his hubris, emphasizing the god's superior skills and
+    the dangers of challenging the divine.\nIn addition to his artistic and prophetic
+    roles, Apollo was also a protector and avenger. He defended his mother Leto\u2019s
+    honor and punished those who wronged her. One notable myth involves Apollo slaying
+    the Python, a serpent that tormented Leto during her pregnancy. By killing the
+    Python, Apollo established his dominance and sanctified the site of Delphi.\nApollo\u2019s
+    complex relationships and numerous lovers, both mortal and divine, produced many
+    notable offspring and stories. His love affairs, often tragic, include the aforementioned
+    Daphne, the mortal princess Cassandra (whom he cursed to speak true prophecies
+    that no one would believe), and Hyacinth, a beautiful youth accidentally killed
+    by Apollo and transformed into the flower bearing his name.\nApollo\u2019s worship
+    was widespread across the Greek world and later adopted by the Romans, who also
+    venerated him as a god of prophecy, healing, and the Sun. Festivals such as the
+    Pythian Games, held at Delphi, celebrated his many attributes with athletic and
+    artistic competitions.\nApollo\u2019s legacy extends beyond mythology into various
+    cultural and artistic domains, symbolizing the ideal of youthful beauty, artistic
+    excellence, and prophetic wisdom. His multifaceted nature and the breadth of
+    his domains make him one of the most enduring and influential deities in ancient
+    mythology."
+  - 'Artemis, also known as Diana in Roman mythology, is the goddess of the hunt,
+    wilderness, and wild animals, as well as a protector of young girls and women.
+    She is one of the twelve Olympian deities and the twin sister of Apollo, the
+    god of the Sun, music, and prophecy. Artemis is often depicted as a youthful,
+    athletic maiden carrying a bow and arrows, accompanied by a stag or hunting dogs.
+
+    Artemis''s
+    birth, like that of her brother Apollo, was fraught with difficulty due to Hera''s
+    jealousy. Their mother, Leto, was pursued by Hera and could find no safe place
+    to give birth until she reached the island of Delos. There, Leto gave birth to
+    Artemis and, shortly after, to Apollo. From a young age, Artemis displayed her
+    divine abilities and was said to have assisted her mother in the delivery of
+    Apollo, showcasing her role as a protector of childbirth.
+
+    As a goddess of
+    the hunt, Artemis is a fierce and skilled huntress who roams the forests and
+    wilderness with her band of nymphs. She is often associated with the moon, reflecting
+    her twin brother''s association with the sun. Artemis''s hunting skills are unparalleled,
+    and she is known for her prowess with the bow and her ability to bring down any
+    prey.
+
+    Artemis is also a virgin goddess, symbolizing purity and independence.
+    She is one of the three virgin goddesses in Greek mythology, alongside Athena
+    and Hestia. Her chastity is a significant aspect of her character, and she fiercely
+    guards her own and her companions'' purity. This aspect of her nature often brings
+    her into conflict with those who attempt to dishonor her or her nymphs.
+
+    One
+    of the most famous myths involving Artemis is the story of Actaeon, a mortal
+    hunter who stumbled upon Artemis while she was bathing. Enraged by this intrusion,
+    Artemis transformed Actaeon into a stag, and he was subsequently torn apart by
+    his own hunting dogs. This myth highlights Artemis''s strict protection of her
+    privacy and purity.
+
+    Artemis is also known for her role in aiding and protecting
+    women, particularly during childbirth. Despite being a virgin herself, she is
+    revered as a goddess who brings relief and protection to women in labor. This
+    duality reflects her complex nature as both a fierce huntress and a nurturing
+    protector.
+
+    In addition to her hunting and protective aspects, Artemis is
+    associated with the wilderness and wild animals. She is often depicted in natural
+    settings, surrounded by wildlife. Her connection to nature underscores her role
+    as a guardian of the untamed and a symbol of the natural world''s beauty and
+    power.
+
+    Artemis''s worship was widespread in ancient Greece, with significant
+    cult centers at Ephesus, Brauron, and Sparta. The Temple of Artemis at Ephesus,
+    one of the Seven Wonders of the Ancient World, was a major site of her worship
+    and a testament to her importance in Greek religion. Festivals such as the Brauronia
+    and the Artemisia celebrated her and involved various rituals, including the
+    reenactment of myths and rites of passage for young girls.
+
+    Artemis''s legacy
+    extends beyond Greek mythology. She was adopted by the Romans as Diana and continued
+    to be venerated as a powerful and independent goddess. Her image and symbolism
+    have endured through the centuries, representing themes of nature, purity, and
+    female empowerment.'
+  - "Ares, the god of war, is one of the twelve Olympian deities in Greek mythology.
+    He embodies the brutal and chaotic aspects of warfare and is often contrasted
+    with Athena, who represents strategic and tactical warfare. Ares is the son of
+    Zeus and Hera, and his violent nature often puts him at odds with both gods and
+    mortals.\nAres is depicted as a fierce and aggressive god, representing the physical
+    and violent aspects of war. He is usually portrayed as a strong, youthful warrior
+    clad in armor, carrying a spear or sword. His sacred animals include the vulture
+    and the dog, both symbols of the carnage and brutality of battle.\nAres's relationship
+    with the other gods, especially his parents Zeus and Hera, is strained. Zeus
+    often scorns Ares for his bloodthirsty nature and lack of strategic thinking.
+    Despite being a god of war, Ares's impulsive and destructive tendencies make
+    him less revered than other deities like Athena, who is respected for her wisdom
+    and strategic prowess in battle.\nOne of Ares's most famous myths involves his
+    affair with Aphrodite, the goddess of love. Despite her marriage to Hephaestus,
+    the god of blacksmiths and fire, Aphrodite was drawn to Ares's passionate and
+    dangerous nature. Their affair was discovered by Hephaestus, who trapped the
+    lovers in a net and exposed them to the other gods, leading to much ridicule
+    and shame for Ares.\nAres\u2019s children also play significant roles in mythology.
+    Among them are Phobos (fear) and Deimos (terror), who accompany him in battle,
+    and Harmonia, who represents harmony and order, a stark contrast to her father's
+    chaotic nature. His relationship with his children reflects his dual nature,
+    capable of both creating discord and, paradoxically, harmony through his offspring.\nAres's
+    influence extends to various myths and stories, often portraying him as a figure
+    of both fear and contempt. In the Trojan War, Ares initially sided with the Trojans
+    but switched allegiances multiple times, driven by his chaotic and unpredictable
+    nature. His involvement in the war often brought more destruction and suffering,
+    highlighting his role as a god who thrives in the chaos of battle.\nDespite his
+    fearsome reputation, Ares's worship was not as widespread or fervent as that
+    of other gods. His primary cult centers were in regions known for their militaristic
+    culture, such as Sparta and Thrace. In Sparta, Ares was venerated as a symbol
+    of the warrior ethos, embodying the martial values of courage and strength.\nAres's
+    Roman counterpart, Mars, was more highly regarded, symbolizing not only war but
+    also agricultural fertility and the protection of the Roman state. The Roman
+    conception of Mars as a more balanced and integral deity contrasts with the Greek
+    portrayal of Ares as a god of pure conflict and bloodshed.\nIn artistic depictions,
+    Ares is often shown as a handsome, muscular man in full battle gear, symbolizing
+    the ideal warrior. His presence in art and literature serves as a reminder of
+    the destructive and chaotic nature of war, as well as the allure of raw, unrestrained
+    power.\nAres\u2019s mythology underscores the dual nature of war, as both a source
+    of destruction and a necessary force for protection and defense. His character,
+    while not as revered as other gods, represents an essential aspect of the human
+    experience, reflecting the complexities of conflict and the darker side of the
+    human psyche."
+  - 'Demeter, the goddess of agriculture, grain, and fertility, is one of the twelve
+    Olympian deities in Greek mythology. She is the daughter of the Titans Cronus
+    and Rhea and the sister of Zeus, Hera, Poseidon, Hades, and Hestia. Demeter is
+    revered for her role in the growth and sustenance of crops, making her a vital
+    deity for ancient agricultural societies.
+
+    Demeter is often depicted as a
+    mature woman, holding sheaves of wheat or a cornucopia, symbolizing abundance
+    and the bounty of the harvest. Her influence extends to all aspects of agriculture,
+    from planting and growth to the harvest and preservation of crops. As such, she
+    was deeply venerated by farmers and those whose livelihoods depended on the fertility
+    of the land.
+
+    One of the most significant myths involving Demeter is the
+    story of her daughter, Persephone. Persephone, also known as Kore, was abducted
+    by Hades, the god of the underworld, to become his queen. Distraught by the loss
+    of her daughter, Demeter wandered the earth, neglecting her duties as the goddess
+    of agriculture. As a result, the earth became barren, and famine spread.
+
+    Zeus,
+    concerned by the plight of humanity, intervened and sent Hermes to negotiate
+    Persephone''s return. However, because Persephone had eaten pomegranate seeds
+    in the underworld, she was bound to return there for part of the year. This myth
+    explains the changing seasons: during the months when Persephone is with Hades,
+    Demeter grieves, and the earth becomes barren (autumn and winter). When Persephone
+    returns to the surface, Demeter rejoices, and the earth flourishes (spring and
+    summer).
+
+    Demeter''s connection to the Eleusinian Mysteries, one of the most
+    important religious rites in ancient Greece, further underscores her significance.
+    These mysteries were celebrated annually in Eleusis and involved secret rituals,
+    the details of which remain largely unknown. The ceremonies, which included reenactments
+    of the Persephone myth, promised initiates a better afterlife and were highly
+    influential in ancient Greek religious life.
+
+    In addition to her role in
+    agriculture, Demeter was also associated with the cycle of life and death, as
+    her daughter Persephone''s descent and return symbolized the perpetual renewal
+    of life. This aspect of Demeter''s mythology highlights her importance in both
+    the physical and spiritual realms.
+
+    Demeter''s worship was widespread, with
+    numerous temples and sanctuaries dedicated to her throughout the Greek world.
+    The Thesmophoria, an annual festival held in her honor, celebrated fertility
+    and the agricultural cycle. This festival, exclusively for women, involved rituals
+    and offerings to ensure the fertility of the land and the prosperity of the community.
+
+    Despite
+    her nurturing nature, Demeter also had a fierce and protective side. She was
+    known to defend the sanctity of her mysteries and punish those who offended her
+    or her daughter. One such myth involves the mortal king Erysichthon, who defiled
+    Demeter''s sacred grove. In retaliation, Demeter cursed him with insatiable hunger,
+    leading to his eventual demise.
+
+    Demeter''s legacy extends beyond ancient
+    Greece. The Romans identified her with their goddess Ceres, from whom the word
+    "cereal" is derived. Her influence on agriculture, fertility, and the natural
+    world has endured through the centuries, making her one of the most enduring
+    and beloved deities in ancient mythology.'
+  - 'Hephaestus, the god of fire, metalworking, and craftsmanship, is one of the
+    twelve Olympian deities in Greek mythology. He is the son of Zeus and Hera, though
+    some myths suggest he was born solely from Hera as a reaction to Zeus birthing
+    Athena from his head. Hephaestus is known for his incredible skill as a blacksmith
+    and craftsman, creating many of the gods'' most powerful and magical items.
+
+    Hephaestus''s
+    birth and early life were marked by turmoil. According to one myth, Hera, displeased
+    with his appearance and deformity, threw him from Mount Olympus, causing him
+    to fall for an entire day before landing in the ocean. He was rescued and raised
+    by the sea nymphs Thetis and Eurynome, who taught him the art of metalworking.
+    Another version suggests that Zeus cast him from Olympus for siding with Hera
+    during a quarrel.
+
+    Despite his physical imperfections, Hephaestus''s talent
+    and intelligence were unparalleled. He established his forge beneath a volcano,
+    where he worked tirelessly, crafting extraordinary items for gods and heroes
+    alike. Among his most famous creations are the shield of Achilles, the armor
+    of Hercules, the scepter of Zeus, and the girdle of Aphrodite. Hephaestus also
+    created the first woman, Pandora, at Zeus''s behest, who later opened the infamous
+    Pandora''s box.
+
+    Hephaestus is often depicted as a robust, bearded man with
+    strong arms, holding a hammer and tongs, symbols of his craft. His forge, where
+    he worked with the help of the Cyclopes, was a place of intense heat and fire,
+    reflecting his association with these elements.
+
+    Hephaestus''s marriage to
+    Aphrodite, the goddess of love and beauty, is one of the most notable aspects
+    of his mythology. Despite their union, Aphrodite was unfaithful, most famously
+    with Ares, the god of war. Hephaestus''s reaction to their affair is a well-known
+    myth. He crafted an unbreakable net, which he used to trap the lovers in flagrante
+    delicto, exposing them to the ridicule of the other gods. This incident highlights
+    Hephaestus''s cunning and ability to outsmart even the most powerful deities.
+
+    Hephaestus''s
+    role extended beyond crafting weapons and armor. He was also a patron of artisans,
+    sculptors, and craftsmen, embodying the spirit of creativity and innovation.
+    His temples and altars were often found in workshops and industrial areas, where
+    he was revered by those who worked with their hands.
+
+    Despite his significant
+    contributions to the gods, Hephaestus''s personal life was often marked by isolation
+    and rejection. His physical deformities and the circumstances of his birth made
+    him an outsider among the Olympians. However, his resilience and mastery of his
+    craft earned him respect and admiration, illustrating the triumph of skill and
+    intellect over adversity.
+
+    Hephaestus''s influence extended to various aspects
+    of Greek culture and religion. Festivals such as the Chalkeia and the Hephaestia
+    celebrated his contributions to craftsmanship and industry. His worship was particularly
+    prominent in Athens, where he was associated with Athena as a patron of the arts
+    and sciences.
+
+    Hephaestus''s legacy endures in the modern world, symbolizing
+    the power of creativity, innovation, and the transformative nature of fire and
+    metalworking. His mythology underscores the importance of perseverance, skill,
+    and intelligence, making him a unique and influential figure in ancient mythology.'
+  - 'Dionysus, also known as Bacchus in Roman mythology, is the god of wine, revelry,
+    fertility, and theater. He is one of the twelve Olympian deities and is known
+    for his dual nature, embodying both joy and ecstasy as well as rage and chaos.
+    Dionysus is the son of Zeus and the mortal woman Semele, making him one of the
+    few gods with a mortal parent.
+
+    Dionysus''s birth was extraordinary and complex.
+    While still in the womb, his mother Semele was tricked by Hera into asking Zeus
+    to reveal his true form. The sight of Zeus in his divine glory was too much for
+    Semele, and she perished. Zeus saved the unborn Dionysus by sewing him into his
+    thigh until he was ready to be born, hence Dionysus is sometimes referred to
+    as "twice-born."
+
+    As the god of wine, Dionysus is often depicted holding
+    a thyrsus, a staff wrapped with ivy and topped with a pinecone, and accompanied
+    by a band of followers known as Maenads (or Bacchantes) and satyrs. These followers,
+    especially the Maenads, are known for their frenzied, ecstatic worship, reflecting
+    the intoxicating and liberating effects of wine.
+
+    Dionysus''s influence extends
+    beyond the realm of wine and revelry. He is also associated with fertility, growth,
+    and the life cycle, often depicted with symbols of nature and agriculture such
+    as vines, grapes, and ivy. His connection to the theater is equally significant,
+    as he is considered the patron of the dramatic arts. The festivals in his honor,
+    such as the Dionysia, included performances of tragedies and comedies, laying
+    the foundations for Western theater.
+
+    One of the most notable myths involving
+    Dionysus is his encounter with King Pentheus of Thebes. Pentheus refused to acknowledge
+    Dionysus''s divinity and tried to suppress his worship. In retaliation, Dionysus
+    drove Pentheus mad, leading him to spy on the Maenads, who, in their frenzy,
+    mistook him for a wild animal and tore him apart. This story highlights Dionysus''s
+    dual nature, capable of both joy and savage retribution.
+
+    Dionysus''s adventures
+    and travels are a recurring theme in his mythology. He is often depicted journeying
+    far and wide, spreading his cult and encountering various challenges. These travels
+    symbolize the spread of wine culture and the god''s ability to bridge the gap
+    between the divine and the mortal worlds.
+
+    Despite his association with revelry
+    and excess, Dionysus also embodies themes of rebirth and transformation. His
+    own "twice-born" nature, along with myths such as his rescue and deification
+    of the mortal Ariadne, underscore his role as a god who transcends boundaries
+    and brings renewal.
+
+    Dionysus''s worship was widespread in the ancient world,
+    with numerous festivals and rituals dedicated to him. The Dionysia in Athens
+    was a major event that included dramatic competitions, processions, and revelry.
+    His cult was known for its ecstatic and liberating practices, which allowed followers
+    to break free from societal norms and experience divine ecstasy.
+
+    In addition
+    to his role in Greek mythology, Dionysus was also venerated by the Romans as
+    Bacchus. His cult, known as the Bacchanalia, was famous for its wild and ecstatic
+    celebrations, which sometimes led to societal tensions and repression by authorities.
+
+    Dionysus''s
+    legacy endures in modern culture, symbolizing the power of creativity, the transformative
+    effects of art and theater, and the dual nature of pleasure and chaos. His mythology
+    and worship reflect the complex interplay between order and disorder, making
+    him one of the most intriguing and multifaceted deities in ancient mythology.'
+  - 'Hermes, also known as Mercury in Roman mythology, is one of the twelve Olympian
+    deities in Greek mythology. He is the god of commerce, travelers, thieves, and
+    communication, and serves as the messenger of the gods. Hermes is the son of
+    Zeus and the nymph Maia, and he is known for his speed, cunning, and versatility.
+
+    Hermes''s
+    birth and early life are marked by his precociousness and cleverness. According
+    to myth, he was born in a cave on Mount Cyllene in Arcadia. On the day of his
+    birth, Hermes demonstrated his cunning by stealing Apollo''s cattle and cleverly
+    covering his tracks. When confronted by Apollo, Hermes charmed his way out of
+    trouble by playing a lyre he had invented from a tortoise shell. This act impressed
+    Apollo, who forgave Hermes and granted him a place among the Olympian gods.
+
+    Hermes
+    is often depicted as a youthful, athletic figure with winged sandals (talaria)
+    and a winged hat (petasos), symbolizing his swiftness and mobility. He carries
+    a caduceus, a staff entwined with two serpents, which represents his role as
+    a messenger and herald. This staff should not be confused with the rod of Asclepius,
+    which is associated with healing.
+
+    As the messenger of the gods, Hermes is
+    responsible for delivering messages and guiding souls to the underworld. He is
+    a psychopomp, a guide of souls, ensuring their safe passage to Hades. Hermes''s
+    role as a mediator and communicator extends to his involvement in negotiations
+    and diplomacy among the gods and mortals.
+
+    Hermes''s association with commerce
+    and trade is another significant aspect of his mythology. He is the patron of
+    merchants, traders, and businessmen, embodying the principles of negotiation,
+    exchange, and profit. His cleverness and ability to navigate various domains
+    make him an ideal god for those engaged in commerce.
+
+    In addition to his
+    role as a god of commerce and communication, Hermes is also associated with travelers
+    and hospitality. He protects travelers on their journeys, ensuring their safety
+    and guiding them through unfamiliar territories. Hermes''s connection to travel
+    is reflected in his epithet "Hermes Trismegistus," meaning "thrice-great Hermes,"
+    which later became associated with the god of knowledge and alchemy in Hellenistic
+    and Roman traditions.
+
+    Hermes''s mischievous and cunning nature is evident
+    in many myths. He is known for his trickery and cleverness, often using his wits
+    to outsmart other gods and mortals. Despite his mischievous tendencies, Hermes
+    is generally seen as a benevolent and helpful deity, aiding heroes and guiding
+    them in their quests.
+
+    One of Hermes''s most notable myths involves his role
+    in the story of Perseus. Hermes provided Perseus with winged sandals, a cap of
+    invisibility, and a curved sword to help him defeat the Gorgon Medusa. Hermes''s
+    assistance was crucial in Perseus''s successful completion of his quest, showcasing
+    the god''s supportive and guiding nature.
+
+    Hermes''s worship was widespread
+    in the ancient Greek world, with numerous temples and shrines dedicated to him.
+    The Hermaea, festivals held in his honor, celebrated his contributions to commerce,
+    travel, and communication. These festivals often included athletic competitions,
+    reflecting Hermes''s athletic and agile nature.
+
+    In Roman mythology, Hermes
+    was known as Mercury, and his influence extended to various aspects of Roman
+    culture and religion. Mercury was revered as a god of commerce, communication,
+    and travel, similar to his Greek counterpart.
+
+    Hermes''s legacy endures in
+    modern culture, symbolizing the power of communication, commerce, and cunning.
+    His mythology and worship reflect the importance of these domains in human society,
+    making him one of the most versatile and influential deities in ancient mythology.'
+  - 'Hestia, the goddess of the hearth, home, and domesticity, is one of the twelve
+    Olympian deities in Greek mythology. She is the eldest daughter of the Titans
+    Cronus and Rhea, making her the sister of Zeus, Hera, Poseidon, Hades, and Demeter.
+    Hestia is a symbol of the hearth and home, representing the stability and sanctity
+    of family life.
+
+    Hestia is often depicted as a modestly veiled woman, sometimes
+    holding a flame or a staff. Unlike many other gods and goddesses, she does not
+    have elaborate myths or dramatic tales associated with her. Instead, her presence
+    is felt in the daily lives of the Greeks, through the hearth fires that burned
+    in their homes and temples.
+
+    As the goddess of the hearth, Hestia''s role
+    was crucial in both private and public life. Every hearth was considered her
+    altar, and she was invoked during meals and domestic rituals. The hearth was
+    the center of the household, providing warmth, light, and a place to prepare
+    food, making Hestia an integral part of daily life.
+
+    Hestia''s importance
+    extended to the state and community. Public hearths in city-states, such as the
+    prytaneum in Athens, were sacred to her, and the flames burning there symbolized
+    the unity and stability of the community. When new colonies were established,
+    a flame from Hestia''s public hearth was taken to kindle the new hearth, ensuring
+    continuity and connection to the mother city.
+
+    One of Hestia''s most significant
+    aspects is her virginity. She is one of the three virgin goddesses, alongside
+    Athena and Artemis. Hestia''s commitment to her virginity and her role as a caretaker
+    of the hearth underscored her dedication to purity and domestic harmony.
+
+    Despite
+    her lack of dramatic myths, Hestia was deeply revered by the Greeks. She was
+    considered the first and last deity to receive offerings at any sacrifice. This
+    practice symbolized the importance of the hearth and the home in both personal
+    and communal life.
+
+    Hestia''s Roman counterpart is Vesta, who held a similarly
+    significant role in Roman religion. The Vestal Virgins, priestesses dedicated
+    to Vesta, maintained the sacred flame in the Temple of Vesta, ensuring it never
+    went out. This flame was a symbol of Rome''s eternal life and stability.
+
+    Hestia''s
+    influence can be seen in the rituals and traditions of ancient Greece, where
+    the hearth was the center of religious and domestic activities. Her presence
+    provided a sense of security and continuity, essential for the well-being of
+    both the household and the community.
+
+    Hestia''s legacy endures in modern
+    culture, symbolizing the importance of home, family, and the hearth. Her role
+    as a guardian of domestic harmony and stability reflects the universal human
+    need for a secure and nurturing home environment.'
+  _gods: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
+  _info: {fileID: 1885783514}
 --- !u!1 &1952006426
 GameObject:
   m_ObjectHideFlags: 0
@@ -15852,7 +17439,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.05865975, y: 0.8899198}
   m_AnchorMax: {x: 0.17796817, y: 0.9438074}
-  m_AnchoredPosition: {x: -0.000030517578, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1952006428
@@ -16141,6 +17728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2004246913}
+  - component: {fileID: 2004246914}
   m_Layer: 5
   m_Name: Home
   m_TagString: Untagged
@@ -16168,6 +17756,59 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2004246914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004246912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f7ec405e5456af498c4cb278610b662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _view: {fileID: 1348955469}
+  _screenType: 0
+  avatarManager: {fileID: 476865855}
+  _profileButton: {fileID: 1078581068}
+  _infoButton: {fileID: 1009124189}
+  _infoGodButton: {fileID: 749028327}
+  _quizButton: {fileID: 1230638313}
+  _factsButton: {fileID: 1761933473}
+  _galleryButton: {fileID: 718037558}
+  _nextButton: {fileID: 7077176}
+  _prevButton: {fileID: 471688354}
+  _name: {fileID: 945992325}
+  _coins: {fileID: 148067319}
+  _god: {fileID: 1693137553}
+  _godNames:
+  - {fileID: 1713638197}
+  - {fileID: 168141496}
+  - {fileID: 733975901}
+  - {fileID: 437427859}
+  - {fileID: 906931088}
+  - {fileID: 2036862722}
+  - {fileID: 610686578}
+  - {fileID: 1025895405}
+  - {fileID: 1573374936}
+  - {fileID: 863884744}
+  - {fileID: 874991140}
+  - {fileID: 849058297}
+  _godImages:
+  - {fileID: 21300000, guid: 8005b013e8b9b634d843fbba5c0164bb, type: 3}
+  - {fileID: 21300000, guid: 0cce9def318e9e94cb0006a95ae13624, type: 3}
+  - {fileID: 21300000, guid: 9f44e71e0eb67ea49a8979bc34e93764, type: 3}
+  - {fileID: 21300000, guid: ca184885085a2874c94dfc57f8b9193f, type: 3}
+  - {fileID: 21300000, guid: baeef06fc53d00c43b37640d7939cff7, type: 3}
+  - {fileID: 21300000, guid: 8ddf9d3ecf037814ea7f902f9be375cc, type: 3}
+  - {fileID: 21300000, guid: 3851ee6f2dba74c49989d1950a4fb0f3, type: 3}
+  - {fileID: 21300000, guid: cfc87679d83073c4f99f5c0e3d457acc, type: 3}
+  - {fileID: 21300000, guid: 54ded8a99a7be4c409b9f8a0eb35dc1c, type: 3}
+  - {fileID: 21300000, guid: d9f2c23a951ff6c47831101f9d579512, type: 3}
+  - {fileID: 21300000, guid: b861c8117af72274092386fb23a5bba2, type: 3}
+  - {fileID: 21300000, guid: ef2fd9c6c42c20e478ad96b68a2b923b, type: 3}
+  gods: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
 --- !u!1 &2005845186
 GameObject:
   m_ObjectHideFlags: 0
@@ -16797,7 +18438,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 39297c6add9e63b47b02abedd063afa5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 984a1d1641a28484b9995c03dcbae785, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17042,7 +18683,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2093757082
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17322,7 +18963,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.05865975, y: 0.5843427}
   m_AnchorMax: {x: 0.17796817, y: 0.7878196}
-  m_AnchoredPosition: {x: -0.000030517578, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2127488187
@@ -17441,8 +19082,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 645.90454, y: -44.467102}
-  m_SizeDelta: {x: 0.000061035156, y: 0.0000019073486}
+  m_AnchoredPosition: {x: 670.90454, y: -44.467102}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2134187979
 MonoBehaviour:
@@ -17489,3 +19130,4 @@ SceneRoots:
   - {fileID: 1125377390}
   - {fileID: 2113422528}
   - {fileID: 45598424}
+  - {fileID: 476865854}
