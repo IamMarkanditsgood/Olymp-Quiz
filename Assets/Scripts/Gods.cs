@@ -1,16 +1,13 @@
 public enum Gods 
 {
-    Zeus,
-    Hera,
-    Poseidon,
-    Athena,
-    Apollo,
-    Artemis,
-    Ares,
-    Demeter,
-    Hephaestus,
-    Dionysus,
-    Hermes,
-    Hestia,
-
+    Ra,
+    Osiris,
+    Horus,
+    Anubis,
+    Set,
+    Thoth,
+    Maat,
+    Hathor,
+    Bastet,
+    Isis,
 }

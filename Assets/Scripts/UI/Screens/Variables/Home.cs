@@ -7,7 +7,6 @@ using UnityEngine.UI;
 
 public class Home : BasicScreen
 {
-    [SerializeField] private AvatarManager avatarManager;
     [SerializeField] private Button _profileButton;
     [SerializeField] private Button _infoButton;
     [SerializeField] private Button _infoGodButton;
@@ -16,8 +15,6 @@ public class Home : BasicScreen
     [SerializeField] private Button _galleryButton;
     [SerializeField] private Button _nextButton;
     [SerializeField] private Button _prevButton;
-
-    [SerializeField] private TMP_Text _name;
     [SerializeField] private TMP_Text _coins;
 
     [SerializeField] private Image _god;
@@ -25,6 +22,7 @@ public class Home : BasicScreen
     [SerializeField] private Sprite[] _godImages;
     [SerializeField] private Gods[] gods;
 
+    TextManager textManager = new TextManager();
     private int _currentGod;
 
     private void Start()
@@ -58,14 +56,12 @@ public class Home : BasicScreen
 
     public override void SetScreen()
     {
-        avatarManager.SetSavedPicture();
         ConfigScreen();
     }
 
     private void ConfigScreen()
     {
-        _name.text = PlayerPrefs.GetString("Name", "User Name");
-        _coins.text = PlayerPrefs.GetInt("Coins").ToString();
+        textManager.SetText(PlayerPrefs.GetInt("Coins"), _coins, true);
 
         foreach (var god in _godNames)
         {

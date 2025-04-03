@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -6,14 +7,9 @@ using UnityEngine.UI;
 
 public class Quiz : BasicScreen
 {
-    [SerializeField] private TMP_Text _timer;
-    [SerializeField] private Image[] _points;
+    [SerializeField] private TMP_Text _currentQuesstion;
     [SerializeField] private List<int> replies;
 
-    [SerializeField] private Sprite _currentPoint;
-    [SerializeField] private Sprite _defaultPoint;
-    [SerializeField] private Sprite _corectPoint;
-    [SerializeField] private Sprite _incorectPoint;
 
     [SerializeField] private Button[] _answersButton;
     [SerializeField] private Image[] _answers;
@@ -26,13 +22,16 @@ public class Quiz : BasicScreen
 
     [SerializeField] private TMP_Text _question;
     [SerializeField] private Button _reply;
-    [SerializeField] private Button _next;
 
     [SerializeField] private GodConfig[] _godconfigs;
 
     [SerializeField] private Button _close;
 
     [SerializeField] private TMP_Text _winResultText;
+    [SerializeField] private Image[] _points;
+    [SerializeField] private Sprite _defaultPoint;
+    [SerializeField] private Sprite _currentPoint;
+
 
 
     private Gods _currentGod;
@@ -50,7 +49,6 @@ public class Quiz : BasicScreen
     {
         _close.onClick.AddListener(Close);
         _reply.onClick.AddListener(Reply);
-        _next.onClick.AddListener(Next);
 
         for (int i = 0; i < _answersButton.Length; i++)
         {
@@ -63,7 +61,6 @@ public class Quiz : BasicScreen
     {
         _close.onClick.RemoveListener(Close);
         _reply.onClick.RemoveListener(Reply);
-        _next.onClick.RemoveListener(Next);
 
         for (int i = 0; i < _answersButton.Length; i++)
         {
@@ -77,7 +74,7 @@ public class Quiz : BasicScreen
     }
     public override void SetScreen()
     {
-
+        _reply.gameObject.SetActive(true);
         foreach (var godConfig in _godconfigs)
         {
             if (godConfig.types == _currentGod)
@@ -88,8 +85,6 @@ public class Quiz : BasicScreen
         replies.Clear();
         _currentQuestion = 0;
         SetQuestion(); 
-        currentTime = 120;
-        StartCoroutine(Timer());
     }
 
     public override void ResetScreen()
@@ -103,12 +98,16 @@ public class Quiz : BasicScreen
         if (_currentQuestion < currentGod.godQuizzes.Length)
         {
             _isWaitForReply = true;
+            foreach (var point in _points)
+            {
+                point.sprite = _defaultPoint;
+
+            }
             foreach (var answer in _answers)
             {
                 answer.sprite = _defaultButton;
             }
             _reply.interactable = false;
-            _next.gameObject.SetActive(false);
             _coosedReply = -1;
             SetPoints();
             _question.text = currentGod.godQuizzes[_currentQuestion].question;
@@ -118,77 +117,69 @@ public class Quiz : BasicScreen
                 _answerText[i].text = currentGod.godQuizzes[_currentQuestion]._answers[i];
             }
         }
-        else
-        {
-            int correctAnswers = 0;
-            foreach (var reply in replies)
-            {
-                if (reply == 1)
-                { correctAnswers++; }
-            }
-            StopAllCoroutines();
-            int newScore = PlayerPrefs.GetInt("Coins");
-            newScore += 500;
-            PlayerPrefs.SetInt("Coins", newScore);
-
-
-            PlayerPrefs.SetInt("Achieve", 1);
-
-            UIManager.Instance.ShowPopup(PopupTypes.QuizWin);
-            _winResultText.text = "You answered " + correctAnswers + "/10\n" + "questions correctly!";
-        }
     }
 
     private void SetPoints()
     {
-        for (int i = 0; i < _points.Length; i++)
-        {
-            if (_currentQuestion == i)
-            {
-                _points[i].sprite = _currentPoint;
-            }
-            else if (i > _currentQuestion)
-            {
-                _points[i].sprite = _defaultPoint;
-            }
-        }
-        for (int i = 0; i < replies.Count; i++)
-        {
-            if (replies[i] == 1)
-            {
-                _points[i].sprite = _corectPoint;
-            }
-            else if (replies[i] == -1)
-            {
-                _points[i].sprite = _incorectPoint;
-            }
-        }
+        _currentQuesstion.text = $"Question "+ (_currentQuestion + 1)+ "/" + (currentGod.godQuizzes.Length);
     }
 
     private void Reply()
     {
+        _reply.gameObject.SetActive(false);
         bool isCorrect = CheckReply();
         _isWaitForReply = false;
         if (isCorrect)
         {
-            _next.gameObject.SetActive(true);
             _answers[_coosedReply].sprite = _correctButton;
-            _points[_currentQuestion].sprite = _corectPoint;
             replies.Add(1);
         }
         else
         {
-            _next.gameObject.SetActive(true);
             _answers[_coosedReply].sprite = _incorrectButton;
-            _points[_currentQuestion].sprite = _incorectPoint;
             replies.Add(-1);
         }
+
+        StartCoroutine(Next());
     }
 
-    private void Next()
+    private IEnumerator Next()
     {
-        _currentQuestion++;
-        SetQuestion();
+        yield return new WaitForSeconds(1);
+        if (_currentQuestion + 1 == currentGod.godQuizzes.Length)
+        {
+            PlayerPrefs.SetInt("QuizezCompeted",( PlayerPrefs.GetInt("QuizezCompeted") + 1));
+            int correct = 0;
+            foreach (var answer in replies)
+            {
+                if (answer == 1)
+                {
+                    correct++;
+                }
+            }
+            if (correct > _godconfigs.Length / 2)
+            {
+                int newScore = PlayerPrefs.GetInt("Coins");
+                newScore += 100 * correct;
+                _winResultText.text = "+" + (100 * correct);
+                PlayerPrefs.SetInt("Coins", newScore);
+
+
+                PlayerPrefs.SetInt("Achieve", 1);
+
+                UIManager.Instance.ShowPopup(PopupTypes.QuizWin); 
+            }
+            else
+            {
+                UIManager.Instance.ShowPopup(PopupTypes.QuizLose);
+            }
+        }
+        else
+        {
+            _reply.gameObject.SetActive(true);
+            _currentQuestion++;
+            SetQuestion();
+        }
     }
 
     private void ChooseAnswer(int index)
@@ -202,6 +193,12 @@ public class Quiz : BasicScreen
             _answers[index].sprite = _selecterdButton;
             _coosedReply = index;
             _reply.interactable = true;
+            foreach(var point in _points)
+            {
+                point.sprite = _defaultPoint;
+
+            }
+            _points[index].sprite = _currentPoint;
         }
     }
 
@@ -218,22 +215,5 @@ public class Quiz : BasicScreen
     private void Close()
     {
         UIManager.Instance.ShowScreen(ScreenTypes.Home);
-    }
-
-    private IEnumerator Timer()
-    {
-        while (true)
-        {
-
-            _timer.text = currentTime.ToString();
-            yield return new WaitForSeconds(1);
-            currentTime--;
-            if (currentTime == 0)
-            {
-                _timer.text = currentTime.ToString();
-                UIManager.Instance.ShowPopup(PopupTypes.QuizLose);
-                StopAllCoroutines();
-            }
-        }
     }
 }

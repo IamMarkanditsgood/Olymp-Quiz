@@ -11,12 +11,17 @@ public class GodInfo : BasicScreen
     [SerializeField] private Button _quizButton;
 
     [SerializeField] private Image _godImage;
-    [SerializeField] private Sprite[] _godImages;
-    [SerializeField] private GameObject[] _godNames;
+    [SerializeField] private Sprite[] _godImages;    
+    
+    [SerializeField] private string[] _godTitles;
     [TextArea(15, 20)]
     [SerializeField] private string[] _godInfos;
     [SerializeField] private Gods[] _gods;
     [SerializeField] private TMP_Text _info;
+    [SerializeField] private TMP_Text _title;
+
+    [SerializeField] private VerticalLayoutGroup _verticalLayoutGroup;
+    [SerializeField] private Canvas Canvas;
 
     private Gods _currentGod;
 
@@ -44,20 +49,29 @@ public class GodInfo : BasicScreen
 
     public override void SetScreen()
     { 
-        foreach(var godName in _godNames)
-        {
-            godName.SetActive(false);
-        }
         for(int i = 0; i < _gods.Length; i++)
         {
             if (_gods[i] == _currentGod)
             {
                 _godImage.sprite = _godImages[i];
-                _godNames[i].SetActive(true);
+                _title.text = _godTitles[i];
                 _info.text = _godInfos[i];
             }
         }
+
+        _verticalLayoutGroup.enabled = false;
+        _title.enabled = false;
+        _info.enabled = false;
+        StartCoroutine(ResetText());
     }   
+
+    private IEnumerator ResetText()
+    {
+        yield return new WaitForSeconds(0.1f);
+        _verticalLayoutGroup.enabled = true;
+        _title.enabled = true;
+        _info.enabled = true;
+    }
 
     private void BackButton()
     {

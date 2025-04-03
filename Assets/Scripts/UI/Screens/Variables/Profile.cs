@@ -6,51 +6,55 @@ using UnityEngine.UI;
 
 public class Profile : BasicScreen
 {
-    [SerializeField] private AvatarManager avatarManager;
     [SerializeField] private Button _homeButton;
     [SerializeField] private Button _infoButton;
-    [SerializeField] private Button _profileEditor;
 
-    [SerializeField] private TMP_Text _name;
+    [SerializeField] private TMP_InputField _name;
     [SerializeField] private TMP_Text _coins;
+    [SerializeField] private TMP_Text _achievementsUnlocked;
+    [SerializeField] private TMP_Text _quizezComplited;
+    [SerializeField] private TMP_Text _totalCoins;
 
     [SerializeField] private Image _ahcieve;
     [SerializeField] private Sprite _openedAchieve;
-
+    TextManager textManager = new TextManager();
     private void Start()
     {
-
-
+     
+        _name.text = PlayerPrefs.GetString("Name", "User Name");
         _homeButton.onClick.AddListener(HomeButton);
         _infoButton.onClick.AddListener(InfoButton);
-        _profileEditor.onClick.AddListener(ProfileButton);
 
     }
     private void OnDestroy()
     {
         _homeButton.onClick.RemoveListener(HomeButton);
         _infoButton.onClick.RemoveListener(InfoButton);
-        _profileEditor.onClick.RemoveListener(ProfileButton);
     }
 
     public override void ResetScreen()
     {
+        PlayerPrefs.SetString("Name", _name.text);
     }
 
     public override void SetScreen()
     {
-        avatarManager.SetSavedPicture();
         ConfigScreen();
     }
 
     private void ConfigScreen()
     {
         _name.text = PlayerPrefs.GetString("Name", "User Name");
+        Debug.Log(_name);
+        Debug.Log(PlayerPrefs.GetString("Name", "User Name"));
         _coins.text = PlayerPrefs.GetInt("Coins").ToString();
-
-        if(PlayerPrefs.HasKey("Achieve"))
+        _achievementsUnlocked.text = "0/4";
+        textManager.SetText(PlayerPrefs.GetInt("Coins"), _totalCoins, true);
+        _quizezComplited.text = PlayerPrefs.GetInt("QuizezCompeted").ToString();
+        if (PlayerPrefs.HasKey("Achieve"))
         {
-            _ahcieve.sprite = _openedAchieve;
+            _ahcieve.GetComponent<Image>().sprite = _openedAchieve;
+            _achievementsUnlocked.text = "1/4";
         }
     }
 
@@ -63,8 +67,4 @@ public class Profile : BasicScreen
         UIManager.Instance.ShowScreen(ScreenTypes.Info);
     }
 
-    private void ProfileButton()
-    {
-        UIManager.Instance.ShowPopup(PopupTypes.PlayerEditor);
-    }
 }

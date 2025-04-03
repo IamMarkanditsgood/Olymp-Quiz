@@ -9,7 +9,6 @@ public class Info : BasicScreen
     [SerializeField] private Button _profileButton;
     [SerializeField] private Button _homeButton;
 
-    [SerializeField] private TMP_Text _coins;
 
     private void Start()
     {
@@ -30,7 +29,6 @@ public class Info : BasicScreen
 
     public override void SetScreen()
     {
-        _coins.text = PlayerPrefs.GetInt("Coins").ToString();
     }
 
     private void ProfileButton()
