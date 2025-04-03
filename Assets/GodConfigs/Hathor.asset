@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Hathor
+  m_EditorClassIdentifier: 
+  types: 7
+  name: Hathor
+  godQuizzes:
+  - question: With which celestial image is Hathor most often associated?
+    _answers:
+    - 'The stormy sky '
+    - 'A celestial cow '
+    - 'A falcon-headed queen '
+    - 'The silhouette of the moon '
+    correctReply: 1
+  - question: 'Which sacred instrument is most strongly linked with Hathor? '
+    _answers:
+    - 'A lyre '
+    - 'A drum '
+    - 'A sistrum '
+    - 'A flute '
+    correctReply: 2
+  - question: 'What aspect of love did Hathor represent? '
+    _answers:
+    - 'Passive affection '
+    - Silent loyalty
+    - Sacred strength and sensuality
+    - Forbidden desire
+    correctReply: 2
+  - question: "As \u201CMistress of the West,\u201D what role did Hathor play? "
+    _answers:
+    - 'Punishing the dead '
+    - 'Guarding tombs '
+    - 'Welcoming souls into the afterlife with compassion '
+    - Judging the hearts of the departed
+    correctReply: 2
+  - question: Which tree is associated with Hathor in rituals of passage to the afterlife?
+    _answers:
+    - 'The olive tree '
+    - 'The acacia '
+    - 'The sycamore '
+    - 'The lotus '
+    correctReply: 2
+  - question: 'According to legend, what did Hathor carry between her horns? '
+    _answers:
+    - 'The full moon '
+    - 'The Eye of Horus '
+    - 'The solar disk '
+    - "Ma\u2019at\u2019s feather "
+    correctReply: 2
+  - question: What offerings were commonly given to Hathor by her devotees?
+    _answers:
+    - 'Weapons and scrolls '
+    - 'Incense and gold coins '
+    - 'Mirrors, perfumes, and musical instruments '
+    - 'Maps and wheat '
+    correctReply: 2
+  - question: "Where was Hathor\u2019s most famous temple located? "
+    _answers:
+    - Abydos
+    - Philae
+    - Dendera
+    - Thebes
+    correctReply: 2
+  - question: "What did Hathor\u2019s dual association with the sun and the moon
+      symbolize?"
+    _answers:
+    - Conflict and retribution
+    - The unity of opposites and the rhythm of emotions
+    - 'Isolation and fear '
+    - Destructive fury
+    correctReply: 1
+  - question: 'What core lesson is conveyed in the cult of Hathor? '
+    _answers:
+    - 'Strength is achieved only through conquest '
+    - 'Joy and love are sacred sources of divine power '
+    - 'Sorrow must be concealed '
+    - Beauty is reserved for the chosen few
+    correctReply: 1

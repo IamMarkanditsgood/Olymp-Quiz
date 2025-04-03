@@ -3639,8 +3639,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1525426690}
   - {fileID: 1248000502}
+  - {fileID: 1525426690}
   m_Father: {fileID: 1739773132}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.8562501}
@@ -10016,18 +10016,16 @@ MonoBehaviour:
   _question: {fileID: 493304359}
   _reply: {fileID: 1088890398}
   _godconfigs:
-  - {fileID: 11400000, guid: c5a7a7a4805e1e24695d80dc74bc066f, type: 2}
-  - {fileID: 11400000, guid: 6d64479b9b6cf1149a960f2df659049e, type: 2}
-  - {fileID: 11400000, guid: 83dc00ef3dfe09f4083753842c5aa4d8, type: 2}
   - {fileID: 11400000, guid: 2e8656bd95fc7284e93caeb156bbef69, type: 2}
+  - {fileID: 11400000, guid: dd1414658d614f6479509137f8583db0, type: 2}
+  - {fileID: 11400000, guid: 42b061fe8a4dc424d94b7701d6d0e587, type: 2}
+  - {fileID: 11400000, guid: 83dc00ef3dfe09f4083753842c5aa4d8, type: 2}
+  - {fileID: 11400000, guid: 941919f49c8c74946b575b4b52e94a28, type: 2}
+  - {fileID: 11400000, guid: 5b110ce627244a8488e355c630ca5e95, type: 2}
+  - {fileID: 11400000, guid: 6d64479b9b6cf1149a960f2df659049e, type: 2}
+  - {fileID: 11400000, guid: c5a7a7a4805e1e24695d80dc74bc066f, type: 2}
   - {fileID: 11400000, guid: cc7068419fcfef94cb827ed653a14704, type: 2}
   - {fileID: 11400000, guid: 0c2b952242ef56948807e2580437fd68, type: 2}
-  - {fileID: 11400000, guid: 5b110ce627244a8488e355c630ca5e95, type: 2}
-  - {fileID: 11400000, guid: 42b061fe8a4dc424d94b7701d6d0e587, type: 2}
-  - {fileID: 11400000, guid: dd1414658d614f6479509137f8583db0, type: 2}
-  - {fileID: 11400000, guid: 941919f49c8c74946b575b4b52e94a28, type: 2}
-  - {fileID: 11400000, guid: cf602376766dea547833794df2b461c2, type: 2}
-  - {fileID: 11400000, guid: 511a111af2e455e46834631a70c84d26, type: 2}
   _close: {fileID: 1525426691}
   _winResultText: {fileID: 40614641}
   _points:
@@ -10037,6 +10035,7 @@ MonoBehaviour:
   - {fileID: 1279081562}
   _defaultPoint: {fileID: 21300000, guid: a391135fd3a97f24aba3eba5b5f535fd, type: 3}
   _currentPoint: {fileID: 21300000, guid: c289b680e6866ed4eb6fa5dfa1d1c8eb, type: 3}
+  _filler: {fileID: 333149007}
 --- !u!1 &1573374936
 GameObject:
   m_ObjectHideFlags: 0

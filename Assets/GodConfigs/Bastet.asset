@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Bastet
+  m_EditorClassIdentifier: 
+  types: 8
+  name: Bastet
+  godQuizzes:
+  - question: 'In what form was Bastet originally depicted? '
+    _answers:
+    - 'As a cobra '
+    - As a jackal
+    - 'As a lioness '
+    - As an ibis
+    correctReply: 2
+  - question: Which quality best reflects the nature of Bastet as a cat?
+    _answers:
+    - Brutality and dominance
+    - 'Quiet strength and balanced resolve '
+    - ' Laziness and detachment'
+    - Flight and confusion
+    correctReply: 1
+  - question: 'How did Bastet protect the household? '
+    _answers:
+    - 'By generating fire '
+    - 'By guarding the door at night '
+    - By warding off illness, misfortune, and evil spirits
+    - 'By planting magical herbs '
+    correctReply: 2
+  - question: 'For what did women especially revere Bastet? '
+    _answers:
+    - 'Rain rituals '
+    - 'Transmitting sacred knowledge '
+    - Fertility, safe childbirth, and emotional strength
+    - Crafting household implements
+    correctReply: 2
+  - question: 'Why was Bastet considered a symbol of independence? '
+    _answers:
+    - 'Because she demanded absolute obedience '
+    - 'Because she co-ruled with Ra '
+    - Because she embodied confidence, clarity, and self-reliance
+    - 'Because she preferred seclusion '
+    correctReply: 2
+  - question: "In which city was Bastet\u2019s primary cult center located? "
+    _answers:
+    - Abydos
+    - Bubastis
+    - Edfu
+    - Heliopolis
+    correctReply: 1
+  - question: 'How were festivals in honor of Bastet typically celebrated? '
+    _answers:
+    - 'In silence and prayer '
+    - With lavish feasts, music, and dancing
+    - 'Through desert races '
+    - ' Under the cover of night '
+    correctReply: 1
+  - question: "How were cats viewed in the context of Bastet\u2019s cult? "
+    _answers:
+    - As messengers of Anubis
+    - 'As unclean creatures '
+    - 'As living embodiments of the goddess '
+    - As guardians of treasure
+    correctReply: 2
+  - question: "What made Bastet\u2019s presence feel especially close to the people?"
+    _answers:
+    - Her ability to cause droughts
+    - 'Her role in temple construction '
+    - Her quiet, unwavering protection in everyday life
+    - 'Her association solely with battles '
+    correctReply: 2
+  - question: "What core message is conveyed in Bastet\u2019s mythology? "
+    _answers:
+    - 'Strength is found in silent protection and balanced grace '
+    - 'Only the strong survive '
+    - Chaos must be eradicated
+    - 'The desert is sacred '
+    correctReply: 0

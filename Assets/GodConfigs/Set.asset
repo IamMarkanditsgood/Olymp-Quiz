@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Set
+  m_EditorClassIdentifier: 
+  types: 4
+  name: Set
+  godQuizzes:
+  - question: With which landscape is Set most closely associated?
+    _answers:
+    - 'The Nile Valley '
+    - 'The sky '
+    - 'The Red Desert '
+    - 'The underworld '
+    correctReply: 2
+  - question: "What does Set\u2019s unusual animal head represent?"
+    _answers:
+    - 'A bond with domestic animals '
+    - 'A connection to lions '
+    - 'A depiction of a real desert jackal '
+    - 'His separation from normal order '
+    correctReply: 2
+  - question: 'Why did Set murder Osiris according to myth? '
+    _answers:
+    - To protect Egypt from foreign gods
+    - Out of jealousy and a desire for power
+    - 'To free him from suffering '
+    - 'As a punishment from Ra '
+    correctReply: 1
+  - question: "What role did Set play on Ra\u2019s solar barque? "
+    _answers:
+    - Guiding souls
+    - 'Summoning storms '
+    - 'Protecting Ra by fighting Apophis '
+    - 'Controlling the sunrise '
+    correctReply: 2
+  - question: 'What does Set symbolize in Egyptian mythology? '
+    _answers:
+    - The law of kings
+    - 'Pure malevolence '
+    - 'Unpredictable power and chaos '
+    - Eternal punishment
+    correctReply: 2
+  - question: 'Which group of foreign rulers especially revered Set as a chief deity? '
+    _answers:
+    - The Ptolemies
+    - 'The Hyksos '
+    - The Libyans
+    - 'The Persians '
+    correctReply: 1
+  - question: "Why did warriors invoke Set\u2019s name before battles?"
+    _answers:
+    - 'For healing purposes '
+    - 'To call forth rain '
+    - 'To gain strength and victory amidst chaos '
+    - 'To safeguard their crops '
+    correctReply: 2
+  - question: "Which natural forces were under Set\u2019s control? "
+    _answers:
+    - 'Lightning and earthquakes '
+    - Solar eclipses
+    - 'Storms and fierce winds '
+    - 'Volcanic eruptions '
+    correctReply: 2
+  - question: How did the ancient Egyptians interpret the conflict between Horus
+      and Set?
+    _answers:
+    - 'As a mere myth '
+    - 'As a historical event '
+    - As a ritual reflecting the cosmic struggle for balance
+    - 'As a source of magical power '
+    correctReply: 2
+  - question: What message does the myth of Set ultimately convey?
+    _answers:
+    - Chaos must be avoided at any cost
+    - Balance is achieved only through destruction
+    - Chaos has its place and can reveal true strength
+    - 'Only order brings peace '
+    correctReply: 2

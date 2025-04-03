@@ -31,6 +31,7 @@ public class Quiz : BasicScreen
     [SerializeField] private Image[] _points;
     [SerializeField] private Sprite _defaultPoint;
     [SerializeField] private Sprite _currentPoint;
+    [SerializeField] private Image _filler;
 
 
 
@@ -121,6 +122,10 @@ public class Quiz : BasicScreen
 
     private void SetPoints()
     {
+        float progress = (float)(_currentQuestion + 1) / currentGod.godQuizzes.Length;
+
+        // Устанавливаем fillAmount для отображения прогресса
+        _filler.fillAmount = progress;
         _currentQuesstion.text = $"Question "+ (_currentQuestion + 1)+ "/" + (currentGod.godQuizzes.Length);
     }
 

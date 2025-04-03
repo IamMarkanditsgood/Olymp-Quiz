@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Ra
+  m_EditorClassIdentifier: 
+  types: 0
+  name: Ra
+  godQuizzes:
+  - question: 'According to myth, how did Ra create the world? '
+    _answers:
+    - 'Through fire and flames '
+    - With his own hands
+    - By speaking sacred words
+    - Through a battle with darkness
+    correctReply: 2
+  - question: What name does Ra take at sunset?
+    _answers:
+    - Khepri
+    - Horus
+    - Amun
+    - Atum
+    correctReply: 3
+  - question: Who assists Ra during his nocturnal journey through the Duat?
+    _answers:
+    - ' Isis and Anubis'
+    - Thoth and Set
+    - Horus and Bastet
+    - "Osiris and Ma\u2019at"
+    correctReply: 1
+  - question: "Which creature attempts to halt Ra\u2019s path each night? "
+    _answers:
+    - Ammit
+    - Wadjet
+    - Mehen
+    - Apophis
+    correctReply: 3
+  - question: "What does the name \u201CRa-Horakhty\u201D symbolize?"
+    _answers:
+    - The unseen sun
+    - The sun at its zenith
+    - The sunrise on the horizon
+    - 'The power of storms '
+    correctReply: 2
+  - question: In temples dedicated to Ra, what do the obelisks symbolically represent?
+    _answers:
+    - Mountain peaks
+    - Solar rays reaching toward the sky
+    - The Eye of Ra
+    - The gates of the Duat
+    correctReply: 1
+  - question: 'With which god did Ra merge to amplify his hidden might? '
+    _answers:
+    - Thoth
+    - Amun
+    - Geb
+    - Shu
+    correctReply: 1
+  - question: 'In what form does Ra appear in the early morning? '
+    _answers:
+    - "With a falcon\u2019s visage"
+    - As Khepri, the scarab god
+    - As Atum, the ancient deity
+    - As a golden lion
+    correctReply: 1
+  - question: What offering was customarily presented to Ra at dawn?
+    _answers:
+    - 'Golden statues '
+    - Papyrus scrolls
+    - 'Incense and hymns '
+    - Crocodile meat
+    correctReply: 2
+  - question: "How did Ra\u2019s journey shape the ancient Egyptian understanding
+      of time?"
+    _answers:
+    - 'Night was seen as evil '
+    - 'It symbolized the eternal struggle between gods '
+    - It provided a narrative of life, death, and rebirth
+    - 'It represented the harvest seasons '
+    correctReply: 3

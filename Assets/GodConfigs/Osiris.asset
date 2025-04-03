@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Osiris
+  m_EditorClassIdentifier: 
+  types: 1
+  name: Osiris
+  godQuizzes:
+  - question: 'What did Osiris, as a living king, teach humanity? '
+    _answers:
+    - 'Astronomy and architecture '
+    - 'Farming, law, and order '
+    - 'Navigation and fishing '
+    - 'Temple construction '
+    correctReply: 1
+  - question: What happened to Osiris after his demise?
+    _answers:
+    - He ascended to the stars
+    - 'He returned among the living '
+    - He was resurrected as the ruler of the underworld
+    - 'He merged with Ra '
+    correctReply: 2
+  - question: Which color is Osiris commonly depicted in, and what does it signify?
+    _answers:
+    - "Red \u2013 power and blood"
+    - "Gold \u2013 divinity and eternity "
+    - "Green \u2013 fertility and rebirth "
+    - "Blue \u2013 the heavens "
+    correctReply: 2
+  - question: What is the name of the crown typically worn by Osiris?
+    _answers:
+    - 'The double crown '
+    - The Hemhem crown
+    - 'The Atef crown '
+    - 'The reed crown '
+    correctReply: 2
+  - question: 'Which natural phenomenon was associated with the resurrection of Osiris? '
+    _answers:
+    - 'The desert wind '
+    - 'The rising of Sirius '
+    - 'The flooding of the Nile '
+    - A solar eclipse
+    correctReply: 2
+  - question: "What did it mean when a deceased person was referred to as \u201Can
+      Osiris\u201D?"
+    _answers:
+    - 'They had failed the judgment '
+    - They would become a guardian spirit
+    - 'They had joined the realm of the gods '
+    - They had entered the afterlife in purity
+    correctReply: 3
+  - question: 'Where were the Osirian Mysteries held annually? '
+    _answers:
+    - Memphis
+    - Abydos
+    - Heliopolis
+    - Edfu
+    correctReply: 1
+  - question: "Which items are typically depicted in Osiris\u2019s hands? "
+    _answers:
+    - 'A feather and a lotus '
+    - 'A scroll and a pen '
+    - A crook and a flail
+    - 'An ankh and a sword '
+    correctReply: 2
+  - question: How was the resurrection of Osiris celebrated?
+    _answers:
+    - 'Through quiet prayers and mourning '
+    - With mystery plays and ritual reenactments
+    - In royal coronation ceremonies
+    - 'By fasting and solitude '
+    correctReply: 1
+  - question: "Who was Osiris\u2019s son, destined to avenge him?"
+    _answers:
+    - Anubis
+    - Horus
+    - Thoth
+    - Sobek
+    correctReply: 1

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Thoth
+  m_EditorClassIdentifier: 
+  types: 5
+  name: Thoth
+  godQuizzes:
+  - question: 'From what was Thoth believed to have been born? '
+    _answers:
+    - 'The banks of the Nile '
+    - 'The moon '
+    - 'The lips of Ra '
+    - "The heart of Ma\u2019at "
+    correctReply: 2
+  - question: "What was Thoth\u2019s primary function in creation? "
+    _answers:
+    - 'Shaping animals '
+    - 'Bestowing fire '
+    - Imparting structure, time, and logic to the world
+    - 'Constructing the first temple '
+    correctReply: 2
+  - question: "Which celestial body is most closely associated with Thoth\u2019s
+      mastery over time?"
+    _answers:
+    - 'The sun '
+    - Sirius
+    - The moon
+    - Venus
+    correctReply: 2
+  - question: 'Why did scribes consider Thoth their patron? '
+    _answers:
+    - Because he taught them foreign languages
+    - Because he invented hieroglyphs and the art of writing
+    - 'Because he led them into battle '
+    - 'Because he provided them with offerings of food '
+    correctReply: 1
+  - question: What role did Thoth play in the judgment of the dead?
+    _answers:
+    - 'Weighing the heart '
+    - 'Leading the soul '
+    - 'Consuming the sinful '
+    - 'Recording the outcome impartially '
+    correctReply: 3
+  - question: 'In temple carvings, what form does Thoth typically appear in? '
+    _answers:
+    - 'A man with falcon wings '
+    - 'A cat holding a scroll '
+    - 'A man with the head of an ibis or baboon '
+    - 'A crocodile carrying a quill '
+    correctReply: 2
+  - question: "What act demonstrated Thoth\u2019s control over the calendar?"
+    _answers:
+    - Hiding the stars
+    - 'Regulating the tides '
+    - 'Adding extra days so that gods could be born '
+    - 'Erasing time during eclipses '
+    correctReply: 2
+  - question: 'How did Thoth help resolve disputes among the gods? '
+    _answers:
+    - 'By engaging in battle '
+    - 'By using his scrolls as weapons '
+    - 'By acting as a calm and logical mediator '
+    - 'By punishing both sides '
+    correctReply: 2
+  - question: 'Which ancient Egyptian city was the primary cult center of Thoth? '
+    _answers:
+    - Abydos
+    - Hermopolis
+    - Philae
+    - Karnak
+    correctReply: 1
+  - question: How was Thoth reinterpreted in Greek tradition?
+    _answers:
+    - 'As a god of war '
+    - 'As a solar deity '
+    - As Hermes Trismegistus, the master of hidden wisdom
+    - As the ruler of the underworld
+    correctReply: 2

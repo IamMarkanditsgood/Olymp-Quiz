@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Isis
+  m_EditorClassIdentifier: 
+  types: 9
+  name: Isis
+  godQuizzes:
+  - question: "What does the name \u201CIsis\u201D (Aset) primarily symbolize in
+      ancient Egyptian belief?"
+    _answers:
+    - Moonlight
+    - Throne and divine authority
+    - River and fertility
+    - Wings of protection
+    correctReply: 1
+  - question: 'Which aspect of Isis is most celebrated in her myth? '
+    _answers:
+    - 'Her martial prowess '
+    - 'Her healing and magical abilities '
+    - Her role as a harvest deity
+    - 'Her connection to the afterlife '
+    correctReply: 1
+  - question: 'What is the most famous act attributed to Isis in the myth of Osiris? '
+    _answers:
+    - 'Banishing Set to the Duat '
+    - 'Reviving Osiris and ensuring the birth of Horus '
+    - "Commanding the sun\u2019s rise "
+    - "Creating the Nile\u2019s annual flood "
+    correctReply: 1
+  - question: 'Where did Isis secretly nurture and protect her son Horus? '
+    _answers:
+    - ' In the mountains of Thebes '
+    - 'In a hidden pyramid '
+    - 'In the deserts of Nubia '
+    - In the marshlands of the Nile Delta
+    correctReply: 3
+  - question: 'Which quality makes Isis a universal symbol across different cultures? '
+    _answers:
+    - Her strict adherence to tradition
+    - 'Her adaptability and compassionate wisdom '
+    - Her association with warfare
+    - 'Her exclusive focus on fertility '
+    correctReply: 1
+  - question: 'What role did Isis play in the restoration of cosmic order? '
+    _answers:
+    - 'She enacted harsh judgments '
+    - 'She orchestrated the cycle of death and rebirth '
+    - She led armies into battle
+    - She isolated herself from the gods
+    correctReply: 1
+  - question: Which sacred force is Isis especially known to command?
+    _answers:
+    - 'The power of the wind '
+    - 'The force of magic (heka) '
+    - The energy of the sun
+    - The strength of the Nile
+    correctReply: 1
+  - question: 'How did devotees traditionally honor Isis? '
+    _answers:
+    - 'By offering weapons and scrolls '
+    - 'By reciting hymns, burning incense, and presenting symbolic tokens '
+    - By fasting in solitude
+    - By constructing massive pyramids in her name
+    correctReply: 1
+  - question: Which title is NOT commonly associated with Isis?
+    _answers:
+    - 'Queen of Heaven '
+    - Lady of Spells
+    - 'Mother of Gods '
+    - 'Goddess of War '
+    correctReply: 3
+  - question: What core message does the myth of Isis convey?
+    _answers:
+    - Life can emerge from the deepest despair
+    - 'Chaos is eternal and unchangeable '
+    - 'The gods are indifferent to mortal struggles '
+    - 'Only through conquest can order be maintained '
+    correctReply: 0

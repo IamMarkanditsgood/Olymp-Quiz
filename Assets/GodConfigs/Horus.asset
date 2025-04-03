@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Horus
+  m_EditorClassIdentifier: 
+  types: 2
+  name: Horus
+  godQuizzes:
+  - question: "Which celestial bodies were believed to represent Horus\u2019s eyes? "
+    _answers:
+    - Mars and Venus
+    - 'The sun and the moon '
+    - Jupiter and Saturn
+    - 'Stars and comets '
+    correctReply: 1
+  - question: "Who was Horus\u2019s mother?"
+    _answers:
+    - Nephthys
+    - Hathor
+    - "Ma\u2019at"
+    - Isis
+    correctReply: 3
+  - question: 'What does the Eye of Horus symbolize? '
+    _answers:
+    - Fire and war
+    - Protection, healing, and restoration
+    - Secrets and curses
+    - ' The desert wind'
+    correctReply: 1
+  - question: "What happened to Horus\u2019s eye during his battle with Set? "
+    _answers:
+    - 'It was stolen by Anubis '
+    - ' It turned into a star'
+    - It was injured and later restored
+    - It was given to Ra
+    correctReply: 2
+  - question: How were pharaohs perceived in ancient belief?
+    _answers:
+    - As priests of Anubis
+    - 'As reincarnations of Osiris '
+    - 'As earthly embodiments of Horus '
+    - 'As children of Thoth '
+    correctReply: 2
+  - question: Where was one of the most important temples dedicated to Horus built?
+    _answers:
+    - Abydos
+    - Edfu
+    - Philae
+    - Memphis
+    correctReply: 1
+  - question: 'In what form was Horus often depicted in relation to state protection? '
+    _answers:
+    - As a lion
+    - With a winged solar disk
+    - As a scarab beetle
+    - As a double-headed falcon
+    correctReply: 1
+  - question: What quality allowed Horus to ultimately overcome Set?
+    _answers:
+    - 'Exceptional physical strength '
+    - 'Deception and trickery '
+    - 'Divine support and steadfast perseverance '
+    - 'Mercy and forgiveness '
+    correctReply: 2
+  - question: 'What role did Horus play in shaping ideas of authority? '
+    _answers:
+    - 'Guardian of the scribes '
+    - 'Source of military power '
+    - 'The divine exemplar for kings '
+    - 'Patron of agriculture '
+    correctReply: 2
+  - question: 'Which form of Horus represented him as a child deity? '
+    _answers:
+    - 'Har-pa-khered (Harpocrates) '
+    - 'Horus the Elder '
+    - 'Ra-Horakhty '
+    - 'Horus of the Desert '
+    correctReply: 0

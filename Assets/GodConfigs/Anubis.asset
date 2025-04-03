@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Anubis
+  m_EditorClassIdentifier: 
+  types: 3
+  name: Anubis
+  godQuizzes:
+  - question: "What did the black coloration of Anubis\u2019s jackal head symbolize?"
+    _answers:
+    - Decay and ruin
+    - 'Fear and silence '
+    - Regeneration and the fertility of the Nile
+    - 'Night and the desert '
+    correctReply: 2
+  - question: "What was Anubis\u2019s original role before Osiris became lord of
+      the underworld? "
+    _answers:
+    - Protector of the pharaohs
+    - God of fire
+    - The primary god of the dead
+    - Creator of the stars
+    correctReply: 2
+  - question: 'During which ritual were masks of Anubis commonly worn? '
+    _answers:
+    - Healing ceremonies
+    - Star-gazing rituals
+    - 'Embalming and funerary rites '
+    - 'Marriage blessings '
+    correctReply: 2
+  - question: 'Which animal is most closely associated with Anubis? '
+    _answers:
+    - Falcon
+    - Jackal
+    - Crocodile
+    - Cat
+    correctReply: 1
+  - question: What role did Anubis play during the heart-weighing ceremony?
+    _answers:
+    - He judged the soul
+    - 'He punished the wicked '
+    - He recorded the names
+    - 'He ensured the fairness of the weighing process '
+    correctReply: 3
+  - question: 'What title did Anubis receive at his main cult center in Cynopolis? '
+    _answers:
+    - ' Lord of the West '
+    - 'Bringer of the Sun '
+    - 'He Who Dwells on the Sacred Mountain '
+    - 'Protector of the Nile '
+    correctReply: 2
+  - question: Why did jackals become symbols of funerary protection?
+    _answers:
+    - 'They resided in temples '
+    - 'They were regarded as messengers '
+    - 'They were commonly seen near cemeteries '
+    - 'They never harmed humans '
+    correctReply: 2
+  - question: Who rendered the final judgment after the heart was weighed?
+    _answers:
+    - Thoth
+    - Ra
+    - Anubis
+    - Osiris
+    correctReply: 3
+  - question: 'Which item was Anubis often depicted holding or appearing near in
+      funerary scenes? '
+    _answers:
+    - ' A sword '
+    - 'A torch or a set of scales '
+    - ' A scroll '
+    - 'A golden chalice '
+    correctReply: 1
+  - question: "What modern concept best reflects Anubis\u2019s role? "
+    _answers:
+    - A sovereign ruler
+    - 'A sorcerer '
+    - 'A psychopomp or spiritual guide '
+    - A storm deity
+    correctReply: 2
