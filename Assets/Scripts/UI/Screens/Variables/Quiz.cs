@@ -35,7 +35,7 @@ public class Quiz : BasicScreen
     [SerializeField] private TMP_Text _winResultText;
 
 
-    private Gods _currentGod;
+    private Planets _currentGod;
     private GodConfig currentGod;
 
     private int _currentQuestion;
@@ -71,7 +71,7 @@ public class Quiz : BasicScreen
             _answersButton[index].onClick.RemoveListener(() => ChooseAnswer(index));
         }
     }
-    public void Init(Gods currentGod)
+    public void Init(Planets currentGod)
     {
         _currentGod = currentGod;
     }
@@ -134,8 +134,16 @@ public class Quiz : BasicScreen
 
             PlayerPrefs.SetInt("Achieve", 1);
 
-            UIManager.Instance.ShowPopup(PopupTypes.QuizWin);
-            _winResultText.text = "You answered " + correctAnswers + "/10\n" + "questions correctly!";
+            if (correctAnswers > 5)
+            {
+                UIManager.Instance.ShowPopup(PopupTypes.QuizWin);
+                _winResultText.text = "You answered " + correctAnswers + "/10\n" + "questions correctly!";
+            }
+            else
+            {
+                UIManager.Instance.ShowPopup(PopupTypes.QuizLose);
+
+            }
         }
     }
 

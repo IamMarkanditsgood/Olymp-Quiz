@@ -19,11 +19,12 @@ public class Home : BasicScreen
 
     [SerializeField] private TMP_Text _name;
     [SerializeField] private TMP_Text _coins;
+    [SerializeField] private TMP_Text _planetName;
 
     [SerializeField] private Image _god;
-    [SerializeField] private GameObject[] _godNames;
+    [SerializeField] private string[] _godNames;
     [SerializeField] private Sprite[] _godImages;
-    [SerializeField] private Gods[] gods;
+    [SerializeField] private Planets[] gods;
 
     private int _currentGod;
 
@@ -67,17 +68,12 @@ public class Home : BasicScreen
         _name.text = PlayerPrefs.GetString("Name", "User Name");
         _coins.text = PlayerPrefs.GetInt("Coins").ToString();
 
-        foreach (var god in _godNames)
-        {
-            god.SetActive(false);
-        }
-
         for (int i = 0; i < gods.Length; i++)
         {
             if (gods[_currentGod] == gods[i])
             {
                 _god.sprite = _godImages[i];
-                _godNames[i].SetActive(true);
+                _planetName.text = _godNames[i];
             }
         }
     }

@@ -9,24 +9,21 @@ public class GodFacts : BasicScreen
     [SerializeField] private Button _okButton;
 
     [SerializeField] private string[] _godTitles;
-    [TextArea(15, 20)]
     [SerializeField] private string[] _godfacts;
     [SerializeField] private string[] _godNames;
-    [SerializeField] private Gods[] _gods;
+    [SerializeField] private Planets[] _gods;
 
     [SerializeField] private TMP_Text _factTitle;
     [SerializeField] private TMP_Text _factInfo;
-    [SerializeField] private TMP_Text _godName;
     [SerializeField] private TMP_Text _godName2;
 
     [SerializeField] private GameObject _factPanel;
     [SerializeField] private GameObject _timerPanel;
     [SerializeField] private TMP_Text _timer;
-    [SerializeField] private TMP_Text _timer1;
     private const string LastClaimTimeKey = "LastClaimTime";
     private TimeSpan rewardCooldown = TimeSpan.FromHours(24);
 
-    private Gods _currentGod;
+    private Planets _currentGod;
 
     private void Start()
     {
@@ -46,10 +43,9 @@ public class GodFacts : BasicScreen
         DateTime nextClaimTime = lastClaimTime + rewardCooldown;
         TimeSpan timeRemaining = nextClaimTime - DateTime.Now;
         _timer.text = $"{timeRemaining.Hours:D2}:{timeRemaining.Minutes:D2}:{timeRemaining.Seconds:D2}";
-        _timer1.text = $"{timeRemaining.Hours:D2}:{timeRemaining.Minutes:D2}:{timeRemaining.Seconds:D2}";
     }
 
-    public void Init(Gods currentGod)
+    public void Init(Planets currentGod)
     {
         _currentGod = currentGod;
     }
@@ -87,7 +83,6 @@ public class GodFacts : BasicScreen
         {
             if (_gods[i] == _currentGod)
             {
-                _godName.text = "Interesting Fact\r\nabout " + _godNames[i];
                 _godName2.text = "Interesting Fact\r\nabout " + _godNames[i];
 
                 _factTitle.text = _godTitles[i].ToString();

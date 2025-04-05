@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Neptune
+  m_EditorClassIdentifier: 
+  types: 7
+  name: Neptune
+  godQuizzes:
+  - question: 'Which planet is the farthest from the Sun? '
+    _answers:
+    - Uranus
+    - 'Neptune '
+    - Saturn
+    - Jupiter
+    correctReply: 1
+  - question: "Neptune\u2019s blue color is mainly caused by: "
+    _answers:
+    - Water vapor
+    - Methane absorbing red light
+    - Its rings
+    - Copper deposits
+    correctReply: 1
+  - question: "What is notable about Neptune\u2019s wind speeds?"
+    _answers:
+    - ' They are very slow.'
+    - They are the fastest in the Solar System, reaching supersonic speeds
+    - "They are similar to Earth\u2019s."
+    - They only occur at the poles.
+    correctReply: 1
+  - question: 'How was Neptune discovered? '
+    _answers:
+    - 'Through direct telescope observation '
+    - "By studying perturbations in Uranus\u2019s orbit"
+    - By its bright rings
+    - 'By ancient astronomers '
+    correctReply: 1
+  - question: 'Which spacecraft provided the first close-up images of Neptune? '
+    _answers:
+    - Cassini
+    - 'Voyager 2 '
+    - Galileo
+    - 'New Horizons '
+    correctReply: 1
+  - question: "What type of moon is Triton, Neptune\u2019s largest moon? "
+    _answers:
+    - A captured object with geysers and a retrograde orbit
+    - A regular, prograde satellite
+    - A rocky moon with no atmosphere
+    - A moon made entirely of ice
+    correctReply: 0
+  - question: "Neptune\u2019s atmosphere is composed mainly of: "
+    _answers:
+    - Carbon dioxide and nitrogen
+    - Hydrogen, helium, and methane
+    - 'Oxygen and water vapor '
+    - 'Sulfur compounds '
+    correctReply: 1
+  - question: 'The dynamic weather on Neptune is characterized by:'
+    _answers:
+    - Calm and steady winds
+    - 'Massive storms and transient features '
+    - 'No noticeable weather '
+    - 'Only localized dust devils '
+    correctReply: 1
+  - question: "Neptune\u2019s internal structure is believed to include: "
+    _answers:
+    - 'A thick, rocky crust only '
+    - A rocky core surrounded by an icy mantle
+    - A solid iron core
+    - A homogeneous gas envelope
+    correctReply: 1
+  - question: 'The discovery of Neptune demonstrated the power of: '
+    _answers:
+    - 'Direct imaging alone '
+    - Mathematical predictions and orbital mechanics
+    - 'Random telescope searches '
+    - 'Ancient mythology '
+    correctReply: 1

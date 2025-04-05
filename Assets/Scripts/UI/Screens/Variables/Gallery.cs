@@ -8,7 +8,7 @@ public class Gallery : BasicScreen
     [Serializable]
     public class GodData
     {
-        public Gods _god;
+        public Planets _god;
         public string _name;
         public Sprite[] _openImages;
         public Sprite[] _closedImages;
@@ -23,7 +23,7 @@ public class Gallery : BasicScreen
     [SerializeField] private Button[] _open;
 
     [SerializeField] private GodData[] _gods;
-    private Gods _currentGod;
+    private Planets _currentGod;
 
     private void Start()
     {
@@ -49,7 +49,7 @@ public class Gallery : BasicScreen
         }
     }
 
-    public void Init(Gods currentGod)
+    public void Init(Planets currentGod)
     {
         _currentGod = currentGod;
     }

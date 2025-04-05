@@ -12,13 +12,14 @@ public class GodInfo : BasicScreen
 
     [SerializeField] private Image _godImage;
     [SerializeField] private Sprite[] _godImages;
-    [SerializeField] private GameObject[] _godNames;
+    [SerializeField] private string[] _godNames;
     [TextArea(15, 20)]
     [SerializeField] private string[] _godInfos;
-    [SerializeField] private Gods[] _gods;
+    [SerializeField] private Planets[] _gods;
     [SerializeField] private TMP_Text _info;
+    [SerializeField] private TMP_Text _name;
 
-    private Gods _currentGod;
+    private Planets _currentGod;
 
     private void Start()
     {
@@ -32,7 +33,7 @@ public class GodInfo : BasicScreen
         _quizButton.onClick.RemoveListener(Quiz);
     }
 
-    public void Init(Gods currentGod)
+    public void Init(Planets currentGod)
     {
         _currentGod = currentGod;
     }
@@ -44,16 +45,12 @@ public class GodInfo : BasicScreen
 
     public override void SetScreen()
     { 
-        foreach(var godName in _godNames)
-        {
-            godName.SetActive(false);
-        }
         for(int i = 0; i < _gods.Length; i++)
         {
             if (_gods[i] == _currentGod)
             {
                 _godImage.sprite = _godImages[i];
-                _godNames[i].SetActive(true);
+                _name.text= _godNames[i];
                 _info.text = _godInfos[i];
             }
         }

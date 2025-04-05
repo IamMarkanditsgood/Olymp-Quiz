@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Uranus
+  m_EditorClassIdentifier: 
+  types: 6
+  name: Uranus
+  godQuizzes:
+  - question: 'What unique feature does Uranus have compared to other planets? '
+    _answers:
+    - 'It has the most moons. '
+    - It has an extreme axial tilt (about 98 degrees)
+    - 'It is the hottest planet. '
+    - It has the largest rings.
+    correctReply: 1
+  - question: "Uranus\u2019s distinct blue-green color is primarily due to: "
+    _answers:
+    - 'Water vapor '
+    - Ammonia
+    - Methane in the atmosphere
+    - 'Iron oxide '
+    correctReply: 2
+  - question: Which of the following best describes Uranus?
+    _answers:
+    - A gas giant with thick clouds
+    - 'An ice giant with an icy mantle '
+    - A rocky planet with a solid surface
+    - A dwarf planet
+    correctReply: 1
+  - question: Who discovered Uranus in 1781?
+    _answers:
+    - Galileo Galilei
+    - Johannes Kepler
+    - Sir William Herschel
+    - Isaac Newton
+    correctReply: 2
+  - question: 'How many spacecraft have visited Uranus? '
+    _answers:
+    - Two
+    - One (Voyager 2)
+    - Three
+    - None
+    correctReply: 1
+  - question: "Uranus\u2019s ring system is best described as:"
+    _answers:
+    - Bright and extensive
+    - Faint and composed of dark particles
+    - Made up of ice only
+    - "Similar to Saturn\u2019s rings "
+    correctReply: 1
+  - question: "What gases primarily make up Uranus\u2019s atmosphere?"
+    _answers:
+    - Carbon dioxide and nitrogen
+    - Hydrogen, helium, and methane
+    - Oxygen and argon
+    - Helium and neon
+    correctReply: 1
+  - question: "Due to Uranus\u2019s tilt, each pole experiences: "
+    _answers:
+    - 'Constant darkness '
+    - 42 years of continuous sunlight followed by 42 years of darkness
+    - No seasonal changes
+    - 'Only mild seasonal changes '
+    correctReply: 1
+  - question: 'Uranus is classified as an ice giant because of its: '
+    _answers:
+    - 'Rocky surface '
+    - Gaseous envelope only
+    - Icy mantle of water, ammonia, and methane ices
+    - Lack of atmosphere
+    correctReply: 2
+  - question: 'The offset magnetic field of Uranus means that: '
+    _answers:
+    - It is perfectly aligned with its rotation.
+    - "It is shifted away from the planet\u2019s center"
+    - 'It does not exist. '
+    - "It is identical to Earth\u2019s magnetic field. "
+    correctReply: 1
