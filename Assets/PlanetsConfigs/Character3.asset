@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Character3
+  m_EditorClassIdentifier: 
+  types: 2
+  name: Materials & Colors in Ancient Greek Architecture
+  godQuizzes:
+  - question: What material was most famous for building temples?
+    _answers:
+    - Limestone
+    - 'Marble '
+    - Clay
+    - Wood
+    correctReply: 1
+  - question: What material was used for roofs and beams?
+    _answers:
+    - Marble
+    - Bronze
+    - 'Wood '
+    - Ivory
+    correctReply: 2
+  - question: 'Where did the Greeks get most of their marble? '
+    _answers:
+    - 'Mount Olympus '
+    - ' Island of Paros'
+    - Crete
+    - Sparta
+    correctReply: 1
+  - question: 'What was terracotta mainly used for? '
+    _answers:
+    - Floors
+    - 'Roof tiles '
+    - Walls
+    - Columns
+    correctReply: 1
+  - question: 'Which material was often used to create statues of gods inside temples? '
+    _answers:
+    - Clay
+    - Gold and ivory
+    - Wood
+    - Iron
+    correctReply: 1
+  - question: 'True or False: Greek temples were always white. '
+    _answers:
+    - True
+    - 'False '
+    - Not shure
+    - May be
+    correctReply: 1
+  - question: What type of decoration was created from tiny colored stones?
+    _answers:
+    - 'Mosaic '
+    - Relief
+    - Column
+    - Pediment
+    correctReply: 0
+  - question: 'Which metal was often used for statues and doors? '
+    _answers:
+    - Iron
+    - 'Bronze '
+    - Silver
+    - Copper
+    correctReply: 1
+  - question: 'What color was commonly used on temple decorations? '
+    _answers:
+    - Purple
+    - ' Bright colors'
+    - Black
+    - Grey
+    correctReply: 1
+  - question: 'Why did Greeks use gold in architecture? '
+    _answers:
+    - To protect buildings
+    - To make them look divine
+    - 'For strength '
+    - 'To avoid painting '
+    correctReply: 1

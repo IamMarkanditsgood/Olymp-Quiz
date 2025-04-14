@@ -12,12 +12,11 @@ public class GodInfo : BasicScreen
 
     [SerializeField] private Image _godImage;
     [SerializeField] private Sprite[] _godImages;
-    [SerializeField] private string[] _godNames;
-    [TextArea(15, 20)]
-    [SerializeField] private string[] _godInfos;
+
+    [SerializeField] private Image info;
     [SerializeField] private Planets[] _gods;
-    [SerializeField] private TMP_Text _info;
-    [SerializeField] private TMP_Text _name;
+    [SerializeField] private Sprite[] _gosInfo;
+
 
     private Planets _currentGod;
 
@@ -50,8 +49,7 @@ public class GodInfo : BasicScreen
             if (_gods[i] == _currentGod)
             {
                 _godImage.sprite = _godImages[i];
-                _name.text= _godNames[i];
-                _info.text = _godInfos[i];
+                info.sprite = _gosInfo[i];
             }
         }
     }   

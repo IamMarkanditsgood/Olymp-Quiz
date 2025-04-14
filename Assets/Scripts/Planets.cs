@@ -1,11 +1,4 @@
 public enum Planets 
 {
-    Mercury,
-    Venus,
-    Earth,
-    Mars,
-    Jupiter,
-    Saturn,
-    Uranus,
-    Neptune,
+    Character1, Character2, Character3, Character4, Character5, Character6,
 }

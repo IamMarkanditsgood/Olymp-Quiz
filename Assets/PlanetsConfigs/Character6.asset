@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Character6
+  m_EditorClassIdentifier: 
+  types: 5
+  name: 'Famous Greek Architects '
+  godQuizzes:
+  - question: 'Who built the Parthenon? '
+    _answers:
+    - Phidias
+    - Iktinos and Kallikrates
+    - Hippodamus
+    - Unknown
+    correctReply: 1
+  - question: 'The Parthenon was dedicated to:'
+    _answers:
+    - Zeus
+    - Apollo
+    - 'Athena '
+    - Poseidon
+    correctReply: 2
+  - question: 'Phidias was famous for:'
+    _answers:
+    - Writing books
+    - Making sculptures
+    - Planning cities
+    - Military skills
+    correctReply: 1
+  - question: Which architect planned whole cities using a grid plan?
+    _answers:
+    - Iktinos
+    - 'Hippodamus '
+    - Kallikrates
+    - Phidias
+    correctReply: 1
+  - question: 'The huge statue of Zeus at Olympia was created by:'
+    _answers:
+    - Iktinos
+    - Hippodamus
+    - 'Phidias '
+    - Kallikrates
+    correctReply: 2
+  - question: What was Phidias's role in the Parthenon?
+    _answers:
+    - Architect
+    - 'Sculptor '
+    - Warrior
+    - Teacher
+    correctReply: 1
+  - question: 'What did the grid plan of cities include? '
+    _answers:
+    - 'Circular streets '
+    - 'Random paths '
+    - Straight crossing streets
+    - 'No streets '
+    correctReply: 2
+  - question: Where was the statue of Athena by Phidias placed?
+    _answers:
+    - 'Temple of Zeus '
+    - ' Parthenon'
+    - Agora
+    - Stadium
+    correctReply: 1
+  - question: 'True or False: Greek architects worked alone without any help. '
+    _answers:
+    - True
+    - 'False '
+    - '-'
+    - '-'
+    correctReply: 1
+  - question: 'Which ancient Greek building became a symbol of Athens? '
+    _answers:
+    - 'Theatre of Epidaurus '
+    - 'Parthenon '
+    - Temple of Apollo
+    - Agora
+    correctReply: 1

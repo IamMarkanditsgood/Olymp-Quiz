@@ -131,13 +131,31 @@ public class Quiz : BasicScreen
             newScore += 500;
             PlayerPrefs.SetInt("Coins", newScore);
 
-
-            PlayerPrefs.SetInt("Achieve", 1);
-
             if (correctAnswers > 5)
             {
                 UIManager.Instance.ShowPopup(PopupTypes.QuizWin);
                 _winResultText.text = "You answered " + correctAnswers + "/10\n" + "questions correctly!";
+                switch (_currentGod)
+                {
+                    case Planets.Character1:
+                        UpdateAchieve("Achieve1");
+                        break;
+                    case Planets.Character2:
+                        UpdateAchieve("Achieve2");
+                        break;
+                    case Planets.Character3:
+                        UpdateAchieve("Achieve3");
+                        break;
+                    case Planets.Character4:
+                        UpdateAchieve("Achieve4");
+                        break;
+                    case Planets.Character5:
+                        UpdateAchieve("Achieve5");
+                        break;
+                    case Planets.Character6:
+                        UpdateAchieve("Achieve6");
+                        break;
+                }
             }
             else
             {
@@ -145,6 +163,14 @@ public class Quiz : BasicScreen
 
             }
         }
+    }
+
+    private void UpdateAchieve(string key)
+    {
+        int amount = PlayerPrefs.GetInt(key);
+        amount++;
+        PlayerPrefs.SetInt(key, amount);
+        PlayerPrefs.Save();
     }
 
     private void SetPoints()

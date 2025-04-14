@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Character5
+  m_EditorClassIdentifier: 
+  types: 4
+  name: ' Types of Buildings in Ancient Greece'
+  godQuizzes:
+  - question: 'What building was created to honor the gods? '
+    _answers:
+    - Theatre
+    - 'Temple '
+    - Agora
+    - Stadium
+    correctReply: 1
+  - question: 'Where did Greeks watch plays? '
+    _answers:
+    - Temple
+    - 'Theatre '
+    - Stadium
+    - Agora
+    correctReply: 1
+  - question: 'What was the agora? '
+    _answers:
+    - Market and meeting place
+    - House
+    - Temple
+    - Gymnasium
+    correctReply: 0
+  - question: 'Stadiums were used for:'
+    _answers:
+    - Shopping
+    - Religious ceremonies
+    - Sports competitions
+    - Political debates
+    correctReply: 2
+  - question: 'What protected people from sun and rain in public places? '
+    _answers:
+    - Roof tiles
+    - 'Colonnades '
+    - Walls
+    - Doors
+    correctReply: 1
+  - question: 'Greek houses were usually:'
+    _answers:
+    - Made of glass
+    - Simple and small
+    - Decorated with gold
+    - Always two floors
+    correctReply: 1
+  - question: Where did Greeks train for sports?
+    _answers:
+    - Theatre
+    - 'Gymnasium '
+    - Agora
+    - Stadium
+    correctReply: 1
+  - question: What shape did Greek theatres usually have?
+    _answers:
+    - Triangle
+    - Circle
+    - Semi-circle
+    - Square
+    correctReply: 3
+  - question: 'Where was the Parthenon located? '
+    _answers:
+    - Sparta
+    - 'Athens '
+    - Delphi
+    - Olympia
+    correctReply: 1
+  - question: 'Which place was often in the center of every Greek city? '
+    _answers:
+    - Temple
+    - Theatre
+    - 'Agora '
+    - Stadium
+    correctReply: 2

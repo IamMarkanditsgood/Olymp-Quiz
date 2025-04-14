@@ -107,8 +107,6 @@ public class Home : BasicScreen
     }
     private void GalleryButton()
     {
-        Gallery godInfo = (Gallery)UIManager.Instance.GetScreen(ScreenTypes.Gallery);
-        godInfo.Init(gods[_currentGod]);
         UIManager.Instance.ShowScreen(ScreenTypes.Gallery);
     }
     private void Next()

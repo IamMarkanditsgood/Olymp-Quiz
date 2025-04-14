@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Character2
+  m_EditorClassIdentifier: 
+  types: 1
+  name: 'Elements of the Greek Temple '
+  godQuizzes:
+  - question: 'What was the main purpose of a Greek temple? '
+    _answers:
+    - 'Living inside '
+    - ' Honoring gods'
+    - Storing food
+    - Training soldiers
+    correctReply: 1
+  - question: What were the steps of a Greek temple called?
+    _answers:
+    - Roof
+    - 'Stylobate '
+    - Pediment
+    - Agora
+    correctReply: 1
+  - question: What part stood on top of a column?
+    _answers:
+    - Roof
+    - 'Capital '
+    - Steps
+    - Statue
+    correctReply: 1
+  - question: 'What is the triangular top part of a temple called? '
+    _answers:
+    - 'Pediment '
+    - Stylobate
+    - Entablature
+    - Agora
+    correctReply: 0
+  - question: What supported the entire weight of the temple?
+    _answers:
+    - Walls
+    - 'Columns '
+    - ' Roof beams'
+    - Statues
+    correctReply: 1
+  - question: 'Metopes were often:'
+    _answers:
+    - Painted red
+    - Empty spaces
+    - Decorated with sculptures
+    - Flat stones
+    correctReply: 2
+  - question: 'What was usually placed outside the temple for rituals? '
+    _answers:
+    - Fountain
+    - 'Altar '
+    - Bench
+    - Throne
+    correctReply: 1
+  - question: 'Triglyphs are:'
+    _answers:
+    - Spiral decorations
+    - Grooved blocks
+    - Animal carvings
+    - Columns
+    correctReply: 1
+  - question: 'What materials were statues usually made of? '
+    _answers:
+    - Iron
+    - 'Gold and ivory '
+    - Glass
+    - Clay
+    correctReply: 1
+  - question: 'The large space between the columns and the roof is called:'
+    _answers:
+    - Entablature
+    - Pediment
+    - Stylobate
+    - Capital
+    correctReply: 0

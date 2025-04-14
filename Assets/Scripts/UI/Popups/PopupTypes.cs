@@ -5,4 +5,5 @@ public enum PopupTypes
     BuyImage,
     NoMoney,
     PlayerEditor,
+    GalleryPopup
 }

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f10d35bbd9b16fa4ab65c0e68a03e266, type: 3}
+  m_Name: Character1
+  m_EditorClassIdentifier: 
+  types: 0
+  name: Introduction to Ancient Greek Architecture
+  godQuizzes:
+  - question: What was the main purpose of Greek temples?
+    _answers:
+    - Housing people
+    - Honoring gods
+    - Military defense
+    - Storage
+    correctReply: 1
+  - question: Which architectural order is the simplest?
+    _answers:
+    - Corinthian
+    - Ionic
+    - 'Doric '
+    - Roman
+    correctReply: 2
+  - question: Which material was most often used for temple decorations?
+    _answers:
+    - Glass
+    - 'Terracotta '
+    - Iron
+    - Bronze
+    correctReply: 1
+  - question: 'What is the name of the large public square in Greek cities? '
+    _answers:
+    - Forum
+    - 'Agora '
+    - Colosseum
+    - Stadium
+    correctReply: 1
+  - question: Which building was used for sports?
+    _answers:
+    - Theatre
+    - Agora
+    - 'Stadium '
+    - Temple
+    correctReply: 2
+  - question: What were the Ionic columns famous for?
+    _answers:
+    - Flat tops
+    - Spiral volutes
+    - Animal sculptures
+    - ' No decoration'
+    correctReply: 1
+  - question: 'Where is the Parthenon located? '
+    _answers:
+    - Rome
+    - 'Athens '
+    - Corinth
+    - Delphi
+    correctReply: 1
+  - question: When did Greek architecture reach its peak?
+    _answers:
+    - 2nd century CE
+    - '8th century BCE '
+    - 5th-4th centuries BCE
+    - Middle Ages
+    correctReply: 2
+  - question: Corinthian columns are decorated with
+    _answers:
+    - Animal heads
+    - Acanthus leaves
+    - Seashells
+    - Nothing
+    correctReply: 1
+  - question: What material was used for the roofs?
+    _answers:
+    - Metal
+    - 'Wood '
+    - Marble
+    - Clay
+    correctReply: 1
