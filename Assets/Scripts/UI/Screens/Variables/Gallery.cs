@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics.Eventing.Reader;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -78,10 +79,12 @@ public class Gallery : BasicScreen
                     if (PlayerPrefs.GetInt(key) == 1)
                     {
                         _images[j].sprite = _gods[i]._openImages[j];
+                        _open[j].gameObject.SetActive(false);
                     }
                     else
                     {
                         _images[j].sprite = _gods[i]._closedImages[j];
+                        _open[j].gameObject.SetActive(true);
                     }
                 }
             }

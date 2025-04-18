@@ -126,16 +126,25 @@ public class Quiz : BasicScreen
                 if (reply == 1)
                 { correctAnswers++; }
             }
-            StopAllCoroutines();
-            int newScore = PlayerPrefs.GetInt("Coins");
-            newScore += 500;
-            PlayerPrefs.SetInt("Coins", newScore);
+
+            if (correctAnswers >= currentGod.godQuizzes.Length / 2)
+            {
+                StopAllCoroutines();
+                int newScore = PlayerPrefs.GetInt("Coins");
+                newScore += 500;
+                PlayerPrefs.SetInt("Coins", newScore);
 
 
-            PlayerPrefs.SetInt("Achieve", 1);
+                PlayerPrefs.SetInt("Achieve", 1);
 
-            UIManager.Instance.ShowPopup(PopupTypes.QuizWin);
-            _winResultText.text = "You answered " + correctAnswers + "/10\n" + "questions correctly!";
+                UIManager.Instance.ShowPopup(PopupTypes.QuizWin);
+                _winResultText.text = "You answered " + correctAnswers + "/10\n" + "questions correctly!";
+            }
+            else
+            {
+                StopAllCoroutines();
+                UIManager.Instance.ShowPopup(PopupTypes.QuizLose);
+            }
         }
     }
 
